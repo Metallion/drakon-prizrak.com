@@ -124,7 +124,7 @@ a:focus, a:hover {
   padding: 200px 0;
   text-align: center;
   color: white;
-  background: url("../img/intro-bg.jpg") no-repeat bottom center scroll;
+  background: url("../img/intro-bg.jpg") no-repeat top center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -198,10 +198,10 @@ a:focus, a:hover {
   color: white;
   background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 #map {

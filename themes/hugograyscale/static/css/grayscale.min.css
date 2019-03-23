@@ -151,6 +151,10 @@ a:focus, a:hover {
   text-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
 }
 
+#downloads-contrast {
+  background: rgba(0, 0, 0, .75);
+}
+
 @media (min-width: 768px) {
   .masthead {
     height: 100%;

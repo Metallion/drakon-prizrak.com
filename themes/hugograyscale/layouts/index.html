@@ -79,7 +79,7 @@
     <section id="{{ .Scratch.Get "download" }}" class="download-section content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
-            <div class="improve-contrast-box">
+            <div class="improve-contrast-box" id="downloads-contrast">
               <h2>{{- default "" $.Params.download.header | safeHTML -}}</h2>
               <p>{{- default "" $.Params.download.text | safeHTML -}}</p>
             </div>

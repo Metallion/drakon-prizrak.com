@@ -1,0 +1,8 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Drakon Prizrak"
+theme = "hugograyscale"
+
+copyright = "Copyright (c) Drakon Prizrak."
+canonifyurls = true
+paginate = 3

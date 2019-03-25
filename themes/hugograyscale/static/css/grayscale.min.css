@@ -152,7 +152,7 @@ a:focus, a:hover {
 }
 
 #downloads-contrast {
-  background: rgba(0, 0, 0, .75);
+  background: rgba(0, 0, 0, .5);
 }
 
 @media (min-width: 768px) {
@@ -161,7 +161,7 @@ a:focus, a:hover {
     padding: 0;
   }
   .masthead .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 50px;
   }
   .masthead .intro-body .intro-text {
     font-size: 22px;

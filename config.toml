@@ -6,3 +6,6 @@ theme = "hugograyscale"
 copyright = "Copyright (c) Drakon Prizrak."
 canonifyurls = true
 paginate = 3
+
+[params]
+description = "Drakon Prizrak: A multicultural metal band from Japan."

@@ -21,11 +21,10 @@ socialhandles:
 menu:
 
 intro:
-    header: "Drakon Prizrak"
-    text: "A multicultural metal band from Japan"
+    text: "<img alt='Drakon Prizrak logo' src='img/DrakonPrizrak_White.svg' />"
 
 About:
-    rename : "About"
+    rename: "About"
     header: "About Drakon Prizrak"
     text: '<p>We are a multicultural gothic metal band with symphonic influences from Tokyo. All of our members have different nationalities.</p>'
 

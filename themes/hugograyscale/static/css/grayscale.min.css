@@ -132,6 +132,10 @@ a:focus, a:hover {
   background-size: cover;
 }
 
+#logo {
+  margin-top: 55%;
+}
+
 .masthead .intro-body {
   display: table-cell;
   vertical-align: middle;

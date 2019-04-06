@@ -17,6 +17,8 @@ copyright: "Drakon Prizrak"
 socialhandles:
     Instagram: "https://instagram.com/drakonprizrakofficial"
     Youtube:   "https://youtube.com/channel/UCY1jxlZ3nHRgT51OOfSKhVA"
+    Twitter:   "https://twitter.com/DrakonPrizrak"
+    Facebook:  "https://www.facebook.com/drakonprizrakofficial"
 
 menu:
 

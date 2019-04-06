@@ -15,8 +15,8 @@ copyright: "Drakon Prizrak"
 #mapsapikey: xxx
 
 socialhandles:
-    instagram: "drakonprizrakofficial"
-    youtube:   "UCY1jxlZ3nHRgT51OOfSKhVA"
+    Instagram: "https://instagram.com/drakonprizrakofficial"
+    Youtube:   "https://youtube.com/channel/UCY1jxlZ3nHRgT51OOfSKhVA"
 
 menu:
 

@@ -33,7 +33,7 @@ About:
 download:
     rename: "Live"
     header: "More live events coming soon"
-    text: '<p>Stay tuned...</p><h3>Past live events</h3><h4>2019-04-18 (Thursday)</h4><p>Tsuji-san 40th guitar anniversary live event</p><p>Shinjuku Gyouen Sound</p>〒160-0022 Tokyo-to Shinjuku-ku Shinjuku 2-3-12 B1F</p>'
+    text: '<p>Stay tuned...</p><h3>Past live events</h3><h4>2019-04-18 (Thursday)</h4><p>Tsuji-san 40th guitar anniversary live event<br /><a href="http://gyoen-sound.com" target="_blank">Shinjuku Gyouen Sound</a><br />〒160-0022 Tokyo-to Shinjuku-ku Shinjuku 2-3-12 B1F</p>'
 
 contact:
     rename: "contact"

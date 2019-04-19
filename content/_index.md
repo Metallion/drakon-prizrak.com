@@ -5,9 +5,9 @@
 # * an about section presenting a header and text with black background
 # * a download section presenting header and text with background image
 # * a contact section presenting header and text with black background
-# 
+#
 # The section names show up as the links in the navbar, so you may wish to rename them if, for example, you're not using it for the purpose suggested by the default section name.
-# 
+#
 # The background images are selected by filename - the intro section image must be named "intro-bg.jpg" and placed in the "static/img/" directory for your site.  Similarly, the downloads section image must be named "downloads-bg.jpg" and placed in the "static/img/" directory for your site.  See the default images in the theme's static directory for file size reference.
 
 title: "Drakon Prizrak"

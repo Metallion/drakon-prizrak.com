@@ -31,12 +31,16 @@ About:
     text: '<p>We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.</p>'
 
 Members:
-    jumpei:
-        name: "Jumpei"
+    Jumpei:
         nationality: "Japan"
         instrument: "Drums"
         bands: "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
         loves: "Trying various types of food"
+    Alya:
+        nationality: "Russia"
+        instrument: "Bass"
+        bands: "Rammstein / Pink Floyd"
+        loves: "Playing mobile games"
 
 download:
     rename: "Live"

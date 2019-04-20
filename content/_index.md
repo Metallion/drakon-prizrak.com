@@ -31,26 +31,30 @@ About:
     text: '<p>We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.</p>'
 
 Members:
-    Jumpei:
+    4:
+        name: "Jumpei"
         nationality: "Japan"
         instrument: "Drums"
         bands: "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
         loves: "Trying various types of food"
-    Alya:
+    2:
+        name: "Alya"
         nationality: "Russia"
         instrument: "Bass"
         bands: "Rammstein / Pink Floyd"
         loves: "Playing mobile games"
-    Andreas:
+    3:
+        name: "Andreas"
         nationality: "Belgium"
         instrument: "Guitar"
         bands: "Iron Maiden / Sodom / After Forever / Samantha Fish"
-        loves: "Gaming, Metal, Linux, Pro Wrestling"
-    Steri:
+        loves: "Gaming / Metal / Linux / Pro Wrestling"
+    1:
+        name: "Steri"
         nationality: "Greece"
-        instrument: "Vocal"
-        bands: "The Spice Girls"
-        loves: "Being a cute little candyman <3"
+        instrument: "Vocals / Programming"
+        bands: "Evanescence / Nightwish / In This Moment / Korn"
+        loves: "Soy Latte / Vegan Mousaka / Cats / The Occult"
 
 download:
     rename: "Live"

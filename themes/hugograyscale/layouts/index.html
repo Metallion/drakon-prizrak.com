@@ -67,10 +67,10 @@
 
             <div class="member-list">
 
-              {{- range $name, $details := $.Params.members -}}
+              {{- range $index, $details := $.Params.members -}}
               <div class="member-item">
                 <div class="member-text">
-                  <h3>{{- $name -}}</h3>
+                  <h3>{{- $details.name -}}</h3>
                   <!--TODO: get absolute path for the flag-->
                   <img class="member-flag" alt="{{- $details.nationality }} Flag" src="img/flags/{{- $details.nationality -}}.svg">
 
@@ -94,7 +94,7 @@
                 </div>
 
                 <div class="member-image">
-                  <img alt="{{- $name -}}" src="img/members/{{- $name -}}.jpg" />
+                  <img alt="{{- $details.name -}}" src="img/members/{{- $details.name -}}.jpg" />
                 </div>
               </div>
               {{- end -}}

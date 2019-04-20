@@ -41,6 +41,16 @@ Members:
         instrument: "Bass"
         bands: "Rammstein / Pink Floyd"
         loves: "Playing mobile games"
+    Andreas:
+        nationality: "Belgium"
+        instrument: "Guitar"
+        bands: "Iron Maiden / Sodom / After Forever / Samantha Fish"
+        loves: "Gaming, Metal, Linux, Pro Wrestling"
+    Steri:
+        nationality: "Greece"
+        instrument: "Vocal"
+        bands: "The Spice Girls"
+        loves: "Being a cute little candyman <3"
 
 download:
     rename: "Live"

@@ -354,4 +354,5 @@ img::-moz-selection {
 
 .member-flag {
   height: 50px;
+  border: 1px solid #fff;
 }

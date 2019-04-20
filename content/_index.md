@@ -31,12 +31,12 @@ About:
     text: '<p>We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.</p>'
 
 Members:
-    4:
-        name: "Jumpei"
-        nationality: "Japan"
-        instrument: "Drums"
-        bands: "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
-        loves: "Trying various types of food"
+    1:
+        name: "Steri"
+        nationality: "Greece"
+        instrument: "Vocals / Programming"
+        bands: "Evanescence / Nightwish / In This Moment / Korn"
+        loves: "Soy Latte / Vegan Mousaka / Cats / The Occult"
     2:
         name: "Alya"
         nationality: "Russia"
@@ -49,12 +49,12 @@ Members:
         instrument: "Guitar"
         bands: "Iron Maiden / Sodom / After Forever / Samantha Fish"
         loves: "Gaming / Metal / Linux / Pro Wrestling"
-    1:
-        name: "Steri"
-        nationality: "Greece"
-        instrument: "Vocals / Programming"
-        bands: "Evanescence / Nightwish / In This Moment / Korn"
-        loves: "Soy Latte / Vegan Mousaka / Cats / The Occult"
+    4:
+        name: "Jumpei"
+        nationality: "Japan"
+        instrument: "Drums"
+        bands: "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
+        loves: "Trying various types of food"
 
 download:
     rename: "Live"

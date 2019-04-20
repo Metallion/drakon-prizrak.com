@@ -67,26 +67,28 @@
 
             <div class="member-list">
 
+              {{- range $name, $details := $.Params.members -}}
               <div class="member-item">
                 <div class="member-text">
-                  <h3>Jumpei</h3>
-                  <img class="member-flag" alt="Japan Flag" src="img/flags/japan.svg">
+                  <h3>{{- $name -}}</h3>
+                  <!--TODO: get absolute path for the flag-->
+                  <img class="member-flag" alt="Japan Flag" src="img/flags/{{- $details.nationality -}}.svg">
 
                   <div class="member-info">
                     <div class="member-info-line">
-                      <div class="member-info-line-header">Nationality</div><div>Japan</div>
+                      <div class="member-info-line-header">Nationality</div><div>{{- $details.nationality -}}</div>
                     </div>
 
                     <div class="member-info-line">
-                      <div class="member-info-line-header">Instrument</div><div>Drums</div>
+                      <div class="member-info-line-header">Instrument</div><div>{{- $details.instrument -}}</div>
                     </div>
 
                     <div class="member-info-line">
-                      <div class="member-info-line-header">Favourite bands</div><div>Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio</div>
+                      <div class="member-info-line-header">Favourite bands</div><div>{{- $details.bands -}}</div>
                     </div>
 
                     <div class="member-info-line">
-                      <div class="member-info-line-header">Loves</div><div>Trying various types of food</div>
+                      <div class="member-info-line-header">Loves</div><div>{{- $details.loves -}}</div>
                     </div>
                   </div><!--member-info-->
                 </div>
@@ -95,6 +97,7 @@
                   <img alt="Jumpei" src="img/members/jumpei.jpg" />
                 </div>
               </div>
+              {{- end -}}
 
             </div><!--member-list-->
           </div>

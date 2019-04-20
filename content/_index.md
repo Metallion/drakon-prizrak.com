@@ -28,7 +28,7 @@ intro:
 About:
     rename: "About"
     header: "About Drakon Prizrak"
-    text: '<p>We are a multicultural gothic metal band with symphonic influences from Tokyo. All of our members have different nationalities.</p>'
+    text: '<p>We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.</p>'
 
 download:
     rename: "Live"

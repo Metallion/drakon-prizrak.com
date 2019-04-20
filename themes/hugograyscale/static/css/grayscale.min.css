@@ -299,3 +299,58 @@ img::selection {
 img::-moz-selection {
   background: transparent;
 }
+
+.member-list {
+  display: flex;
+  justify-content: center;
+}
+
+.member-item {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: flex-start;
+  /*border: 1px solid #f00;  /* For debugging */
+}
+
+.member-text {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  /*border: 1px solid #fff;  /* For debugging */
+}
+
+.member-info {
+  display: flex;
+  flex-direction: column;
+  /*border: 1px solid #fff;  /* For debugging */
+  width: 100%;
+}
+
+.member-info-line {
+  padding: 10px 0;
+  /*border: 1px solid #00f;  /* For debugging */
+  border-bottom: 1px solid #990033;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.member-info-line-header {
+  font-weight: bold;
+}
+
+.member-info-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.member-image img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.member-flag {
+  height: 50px;
+}

@@ -302,15 +302,18 @@ img::-moz-selection {
 
 .member-list {
   display: flex;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .member-item {
   display: flex;
-  width: 100%;
   justify-content: space-around;
   align-items: flex-start;
+  margin: 10px;
+  width: 100%;
+  max-width: 850px;
   /*border: 1px solid #f00;  /* For debugging */
 }
 
@@ -320,6 +323,8 @@ img::-moz-selection {
   flex-direction: column;
   align-items: center;
   /*border: 1px solid #fff;  /* For debugging */
+  width: 100%;
+  max-width: 400px;
 }
 
 .member-info {

@@ -65,47 +65,50 @@
             <h2>{{- default "" $.Params.about.header | safeHTML -}}</h2>
             <p>{{- default "" $.Params.about.text | safeHTML -}}</p>
 
-            <div class="member-list">
-
-              {{- range $index, $details := $.Params.members -}}
-              <div class="member-item">
-                <div class="member-text">
-                  <h3>{{- $details.name -}}</h3>
-                  <!--TODO: get absolute path for the flag-->
-                  <img class="member-flag" alt="{{- $details.nationality }} Flag" src="img/flags/{{- $details.nationality -}}.svg">
-
-                  <div class="member-info">
-                    <div class="member-info-line">
-                      <div class="member-info-line-header">Nationality</div><div>{{- $details.nationality -}}</div>
-                    </div>
-
-                    <div class="member-info-line">
-                      <div class="member-info-line-header">Instrument</div><div>{{- $details.instrument -}}</div>
-                    </div>
-
-                    <div class="member-info-line">
-                      <div class="member-info-line-header">Favourite bands</div><div>{{- $details.bands -}}</div>
-                    </div>
-
-                    <div class="member-info-line">
-                      <div class="member-info-line-header">Loves</div><div>{{- $details.loves -}}</div>
-                    </div>
-                  </div><!--member-info-->
-                </div>
-
-                <div class="member-image">
-                  <img alt="{{- $details.name -}}" src="img/members/{{- $details.name -}}.jpg" />
-                </div>
-              </div>
-              {{- end -}}
-
-            </div><!--member-list-->
           </div>
 
         </div>
       </div>
     </section>
     {{- end -}}
+
+    <section id="Members" class="content-section text-center">
+      <div class="member-list">
+
+      {{- range $index, $details := $.Params.members -}}
+        <div class="member-item">
+          <div class="member-text">
+            <h3>{{- $details.name -}}</h3>
+            <!--TODO: get absolute path for the flag-->
+            <img class="member-flag" alt="{{- $details.nationality }} Flag" src="img/flags/{{- $details.nationality -}}.svg">
+
+            <div class="member-info">
+              <div class="member-info-line">
+                <div class="member-info-line-header">Nationality</div><div>{{- $details.nationality -}}</div>
+              </div>
+
+              <div class="member-info-line">
+                <div class="member-info-line-header">Instrument</div><div>{{- $details.instrument -}}</div>
+              </div>
+
+              <div class="member-info-line">
+                <div class="member-info-line-header">Favourite bands</div><div>{{- $details.bands -}}</div>
+              </div>
+
+              <div class="member-info-line">
+                <div class="member-info-line-header">Loves</div><div>{{- $details.loves -}}</div>
+              </div>
+            </div><!--member-info-->
+          </div>
+
+          <div class="member-image">
+            <img alt="{{- $details.name -}}" src="img/members/{{- $details.name -}}.jpg" />
+          </div>
+        </div><!--member-item-->
+      {{- end -}}
+
+      </div><!--member-list-->
+    </section>
 
     <!-- Download Section -->
     {{- if isset $.Params "download" -}}

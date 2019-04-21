@@ -363,7 +363,8 @@ img::-moz-selection {
 }*/
 
 .member-flag {
-  height: 50px;
-  width: 74px;
+  max-height: 50px;
+  max-width: 74px;
+  width: 20%;
   border: 1px solid #fff;
 }

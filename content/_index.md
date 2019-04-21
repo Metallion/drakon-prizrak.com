@@ -36,7 +36,7 @@ Members:
         nationality: "Greece"
         instrument: "Vocals / Programming"
         bands: "Evanescence / Nightwish / In This Moment / Korn"
-        loves: "Soy Latte / Vegan Mousaka / Cats / The Occult"
+        loves: "Soy Latte / Vegan Moussaka / Cats / The Occult"
     2:
         name: "Alya"
         nationality: "Russia"

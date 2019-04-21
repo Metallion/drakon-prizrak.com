@@ -334,6 +334,16 @@ img::-moz-selection {
   width: 100%;
 }
 
+@media only screen and (max-width: 680px) {
+  .member-info {
+    display: none;
+  }
+
+  .member-flag {
+    display: none;
+  }
+}
+
 .member-info-line {
   padding: 10px 0;
   /*border: 1px solid #00f;  /* For debugging */

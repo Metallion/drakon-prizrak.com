@@ -1,8 +1,9 @@
 {{- define "main" -}}
     {{- $.Scratch.Add "about" "about" -}}
+    {{- $.Scratch.Add "members" "members" -}}
     {{- $.Scratch.Add "download" "download" -}}
     {{- $.Scratch.Add "contact" "contact" -}}
-    {{- range $pagesect := (slice "about" "download" "contact") -}}
+    {{- range $pagesect := (slice "about" "members" "download" "contact") -}}
         {{- if isset $.Params $pagesect -}}
           {{- $param_pagesect := index $.Params $pagesect -}}
           {{- if isset $param_pagesect "rename" -}}
@@ -20,7 +21,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            {{- range $pagesect := ( slice "about" "download" "contact" ) -}}
+            {{- range $pagesect := ( slice "about" "members" "download" "contact" ) -}}
               {{- if isset $.Params $pagesect -}}
                 <li class="nav-item">
                   <a class="nav-link js-scroll-trigger improve-contrast-box" href="#{{ $.Scratch.Get $pagesect }}">{{- $.Scratch.Get $pagesect -}}</a>
@@ -72,7 +73,8 @@
     </section>
     {{- end -}}
 
-    <section id="Members" class="content-section text-center">
+    <!-- Members Section -->
+    <section id="members" class="content-section text-center">
       <div class="member-list">
 
       {{- range $index, $details := $.Params.members -}}

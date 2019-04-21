@@ -357,6 +357,11 @@ img::-moz-selection {
   max-width: 400px;
 }
 
+/*#Alya .member-image,
+#Jumpei .member-image {
+  order: -1;
+}*/
+
 .member-flag {
   height: 50px;
   width: 74px;

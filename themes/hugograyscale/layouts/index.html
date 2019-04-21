@@ -78,7 +78,7 @@
       <div class="member-list">
 
       {{- range $index, $details := $.Params.members -}}
-        <div class="member-item">
+        <div id="{{- $details.name -}}" class="member-item">
           <div class="member-text">
             <h3>{{- $details.name -}}</h3>
             <!--TODO: get absolute path for the flag-->

@@ -300,6 +300,10 @@ img::-moz-selection {
   background: transparent;
 }
 
+#members {
+  padding-top: 0;
+}
+
 .member-list {
   display: flex;
   justify-content: space-around;

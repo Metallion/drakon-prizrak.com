@@ -101,6 +101,12 @@
                 <div class="member-info-line-header">Loves</div><div>{{- $details.loves -}}</div>
               </div>
             </div><!--member-info-->
+
+            <div class="member-nss">
+              {{- range $name, $url := $details.socialhandles -}}
+                <a href="{{ $url }}" target="_blank" class="btn"><i class="fa fa-{{ $name }} fa-fw"></i><span class="network-name">{{ $name }}</span></a>
+              {{- end -}}
+            </div>
           </div>
 
           <div class="member-image">

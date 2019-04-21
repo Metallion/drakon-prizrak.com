@@ -40,6 +40,7 @@ Members:
         socialhandles:
             Twitter: "https://twitter.com/sterikogias"
             Instagram: "https://www.instagram.com/sterikogias/"
+            Facebook: "https://www.facebook.com/sterikogias"
     2:
         name: "Alya"
         nationality: "Russia"

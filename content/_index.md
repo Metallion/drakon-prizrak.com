@@ -45,7 +45,7 @@ Members:
         name: "Alya"
         nationality: "Russia"
         instrument: "Bass"
-        bands: "Rammstein / Pink Floyd"
+        bands: "Rammstein / Pink Floyd / Scorpions"
         loves: "Playing mobile games"
         socialhandles:
             Twitter: "https://twitter.com/elegantbass"

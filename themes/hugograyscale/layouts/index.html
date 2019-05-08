@@ -3,7 +3,7 @@
     {{- $.Scratch.Add "members" "members" -}}
     {{- $.Scratch.Add "download" "download" -}}
     {{- $.Scratch.Add "contact" "contact" -}}
-    {{- range $pagesect := (slice "about" "download" "contact") -}}
+    {{- range $pagesect := (slice "about" "members" "download" "contact") -}}
         {{- if isset $.Params $pagesect -}}
           {{- $param_pagesect := index $.Params $pagesect -}}
           {{- if isset $param_pagesect "rename" -}}

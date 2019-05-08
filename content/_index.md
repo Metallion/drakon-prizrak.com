@@ -26,7 +26,7 @@ intro:
     text: "<img id='logo' alt='Drakon Prizrak logo' src='img/DrakonPrizrak_White.svg' />"
 
 About:
-    rename: "About"
+    rename: "about"
     header: "About Drakon Prizrak"
     text: '<p>We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.</p>'
 
@@ -70,7 +70,7 @@ Members:
             Instagram: "https://www.instagram.com/jp_drakon"
 
 download:
-    rename: "Live"
+    rename: "live"
     header: "Live events"
     text: '<h4>2019-07-06 (Saturday)</h4><p>Event Start: pending<br />Drakon Prizrak Start: pending<br />Entrance: pending<br /><h5>Shimo-Kitazawa Waver</h5>〒155-0031 Tokyo-to Setagaya-ku Kitazawa 2-14-13 B1F</p><p><a href="http://waverwaver.net/pc/access/" target="_blank">Access</a></p><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1620.841521430485!2d139.667948!3d35.66018!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb97bfa62349bbb69!2sWAVER!5e0!3m2!1sen!2sjp!4v1556110991951!5m2!1sen!2sjp" width="85%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p><h3>Past live events</h3><h4>2019-04-18 (Thursday)</h4><p>Tsuji-san 40th guitar anniversary live event<br /><a href="http://gyoen-sound.com" target="_blank">Shinjuku Gyouen Sound</a><br />〒160-0022 Tokyo-to Shinjuku-ku Shinjuku 2-3-12 B1F</p>'
 

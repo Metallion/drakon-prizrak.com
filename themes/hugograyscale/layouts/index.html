@@ -63,7 +63,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>{{- default "" $.Params.about.header | safeHTML -}}</h2>
+            <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.about.rename -}}">{{- default "" $.Params.about.header | safeHTML -}}</a></h2>
             <p>{{- default "" $.Params.about.text | safeHTML -}}</p>
 
           </div>
@@ -125,7 +125,7 @@
       <div class="container">
         <div class="col-lg-8 mx-auto">
             <div class="improve-contrast-box" id="downloads-contrast">
-              <h2>{{- default "" $.Params.download.header | safeHTML -}}</h2>
+              <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.download.rename -}}">{{- default "" $.Params.download.header | safeHTML -}}</a></h2>
               <p>{{- default "" $.Params.download.text | safeHTML -}}</p>
             </div>
         </div>
@@ -139,7 +139,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>{{- default "" $.Params.contact.header | safeHTML -}}</h2>
+            <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.contact.rename -}}">{{- default "" $.Params.contact.header | safeHTML -}}</a></h2>
             <p>{{- default "" $.Params.contact.text | safeHTML -}}</p>
             {{- if isset $.Params "socialhandles" -}}
             <ul class="list-inline banner-social-buttons">

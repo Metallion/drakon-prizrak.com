@@ -31,43 +31,39 @@ About:
     text: '<p>We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.</p>'
 
 Members:
-    1:
-        name: "Steri"
-        nationality: "Greece"
-        instrument: "Vocals / Programming"
-        bands: "Evanescence / Nightwish / In This Moment / Korn"
-        loves: "Soy Latte / Vegan Moussaka / Cats / The Occult"
-        socialhandles:
+    - name: "Steri"
+      nationality: "Greece"
+      instrument: "Vocals / Programming"
+      bands: "Evanescence / Nightwish / In This Moment / Korn"
+      loves: "Soy Latte / Vegan Moussaka / Cats / The Occult"
+      socialhandles:
             Twitter: "https://twitter.com/sterikogias"
             Instagram: "https://www.instagram.com/sterikogias/"
             Facebook: "https://www.facebook.com/sterikogias"
-    2:
-        name: "Alya"
-        nationality: "Russia"
-        instrument: "Bass"
-        bands: "Rammstein / Pink Floyd / Scorpions"
-        loves: "Playing mobile games"
-        socialhandles:
-            Twitter: "https://twitter.com/elegantbass"
-            Instagram: "https://www.instagram.com/aya_drakon"
-            Facebook: "https://www.facebook.com/profile.php?id=100000228759105"
-    3:
-        name: "Andreas"
-        nationality: "Belgium"
-        instrument: "Guitar"
-        bands: "Iron Maiden / Sodom / After Forever / Samantha Fish"
-        loves: "Gaming / Metal / Linux / Pro Wrestling"
-        socialhandles:
-            Twitter: "https://twitter.com/Metallion98"
-            Dorian Guitars: "https://www.facebook.com/Sophidox/"
-    4:
-        name: "Jumpei"
-        nationality: "Japan"
-        instrument: "Drums"
-        bands: "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
-        loves: "Trying various types of food"
-        socialhandles:
-            Instagram: "https://www.instagram.com/jp_drakon"
+    - name: "Alya"
+      nationality: "Russia"
+      instrument: "Bass"
+      bands: "Rammstein / Pink Floyd / Scorpions"
+      loves: "Playing mobile games"
+      socialhandles:
+          Twitter: "https://twitter.com/elegantbass"
+          Instagram: "https://www.instagram.com/aya_drakon"
+          Facebook: "https://www.facebook.com/profile.php?id=100000228759105"
+    - name: "Andreas"
+      nationality: "Belgium"
+      instrument: "Guitar"
+      bands: "Iron Maiden / Sodom / After Forever / Samantha Fish"
+      loves: "Gaming / Metal / Linux / Pro Wrestling"
+      socialhandles:
+          Twitter: "https://twitter.com/Metallion98"
+          Dorian Guitars: "https://www.facebook.com/Sophidox/"
+    - name: "Jumpei"
+      nationality: "Japan"
+      instrument: "Drums"
+      bands: "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
+      loves: "Trying various types of food"
+      socialhandles:
+          Instagram: "https://www.instagram.com/jp_drakon"
 
 download:
     rename: "live"

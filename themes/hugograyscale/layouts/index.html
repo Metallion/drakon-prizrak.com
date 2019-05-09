@@ -78,40 +78,40 @@
       <h2><a class="header-link js-scroll-trigger" href="#members">Members</a></h2>
       <div class="member-list">
 
-      {{- range $index, $details := $.Params.members -}}
-        <div id="{{- $details.name -}}" class="member-item">
+      {{- range $member := $.Params.members -}}
+        <div id="{{- $member.name -}}" class="member-item">
           <div class="member-text">
-            <h3>{{- $details.name -}}</h3>
+            <h3>{{- $member.name -}}</h3>
             <!--TODO: get absolute path for the flag-->
-            <img class="member-flag" alt="{{- $details.nationality }} Flag" src="img/flags/{{- $details.nationality -}}.svg">
+            <img class="member-flag" alt="{{- $member.nationality }} Flag" src="img/flags/{{- $member.nationality -}}.svg">
 
             <div class="member-info">
               <div class="member-info-line">
-                <div class="member-info-line-header">Nationality</div><div>{{- $details.nationality -}}</div>
+                <div class="member-info-line-header">Nationality</div><div>{{- $member.nationality -}}</div>
               </div>
 
               <div class="member-info-line">
-                <div class="member-info-line-header">Instrument</div><div>{{- $details.instrument -}}</div>
+                <div class="member-info-line-header">Instrument</div><div>{{- $member.instrument -}}</div>
               </div>
 
               <div class="member-info-line">
-                <div class="member-info-line-header">Favourite bands</div><div>{{- $details.bands -}}</div>
+                <div class="member-info-line-header">Favourite bands</div><div>{{- $member.bands -}}</div>
               </div>
 
               <div class="member-info-line">
-                <div class="member-info-line-header">Loves</div><div>{{- $details.loves -}}</div>
+                <div class="member-info-line-header">Loves</div><div>{{- $member.loves -}}</div>
               </div>
             </div><!--member-info-->
 
             <div class="member-nss">
-              {{- range $name, $url := $details.socialhandles -}}
+              {{- range $name, $url := $member.socialhandles -}}
                 <a href="{{ $url }}" target="_blank" class="btn"><i class="fa fa-{{ $name }} fa-fw"></i><span class="network-name">{{ $name }}</span></a>
               {{- end -}}
             </div>
           </div>
 
           <div class="member-image">
-            <img alt="{{- $details.name -}}" src="img/members/{{- $details.name -}}.jpg" />
+            <img alt="{{- $member.name -}}" src="img/members/{{- $member.name -}}.jpg" />
           </div>
         </div><!--member-item-->
       {{- end -}}

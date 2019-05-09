@@ -111,18 +111,29 @@
     </section>
 
     <!-- Download Section -->
-    {{- if isset $.Params "download" -}}
     <section id="{{ .Scratch.Get "download" }}" class="download-section content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
             <div class="improve-contrast-box" id="downloads-contrast">
               <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.download.rename -}}">{{- default "" $.Params.download.header | safeHTML -}}</a></h2>
-              <p>{{- default "" $.Params.download.text | safeHTML -}}</p>
+
+              {{- range $date, $details := $.Params.gigs -}}
+              <h4>{{ $date }} ({{ $details.day }})</h4>
+              <p>
+                Event Start: {{ $details.start }}<br />
+                Drakon Prizrak Start: {{ $details.drakon_start }}<br />
+                Entrance: {{ $details.entrance }}<br />
+              </p>
+              <h5>{{ $details.venue_name }}</h5>
+              <p>{{ $details.venue_address }}</p>
+              <p><a href="{{ $details.venue_access }}" target="_blank">Access</a></p>
+              <iframe src="https://www.google.com/maps/embed?pb={{ $details.google_map }}" width="85%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              {{- end -}}
+
             </div>
         </div>
       </div>
     </section>
-    {{- end -}}
 
     <!-- Contact Section -->
     {{- if isset $.Params "contact" -}}

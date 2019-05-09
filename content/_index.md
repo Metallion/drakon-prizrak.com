@@ -68,6 +68,26 @@ Members:
       socialhandles:
           Instagram: "https://www.instagram.com/jp_drakon"
 
+gigs:
+  2019-07-06:
+    day: "Saturday" #TODO: Get this from the date
+    start: "pending"
+    drakon_start: "pending"
+    entrance: "pending"
+    venue_name: "Shimo-Kitazawa Waver"
+    venue_address: "〒155-0031 Tokyo-to Setagaya-ku Kitazawa 2-14-13 B1F"
+    venue_access: "http://waverwaver.net/pc/access/"
+    google_map: "!1m18!1m12!1m3!1d3241.6828667264067!2d139.66575961559684!3d35.66018433873267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee0fc1cbb5ef%3A0xb97bfa62349bbb69!2sWAVER!5e0!3m2!1sen!2sjp!4v1557411412474!5m2!1sen!2sjp"
+
+  2019-04-18:
+    start: "18:00"
+    drakon_start: "20:00"
+    entrance: "1000 yen"
+    venue_name: "Shinjuku Gyoen Sound"
+    venue_address: "〒160-0022 Tokyo-to Shinjuku-ku Shinjuku 2-3-12 B1F"
+    venue_access: "http://gyoen-sound.com/access.html"
+    google_map: "!1m14!1m8!1m3!1d4582.831632100654!2d139.7074435205412!3d35.68804824942547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cc33dd89ead%3A0x3bdd383c615345d8!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yS5LiB55uu77yT4oiS77yR77yS!5e0!3m2!1sja!2sjp!4v1557410464030!5m2!1sja!2sjp"
+
 download:
     rename: "live"
     header: "Live events"

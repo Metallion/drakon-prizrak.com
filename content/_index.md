@@ -40,6 +40,7 @@ Members:
             Twitter: "https://twitter.com/sterikogias"
             Instagram: "https://www.instagram.com/sterikogias/"
             Facebook: "https://www.facebook.com/sterikogias"
+
     - name: "Alya"
       nationality: "Russia"
       instrument: "Bass"
@@ -49,6 +50,7 @@ Members:
           Twitter: "https://twitter.com/elegantbass"
           Instagram: "https://www.instagram.com/aya_drakon"
           Facebook: "https://www.facebook.com/profile.php?id=100000228759105"
+
     - name: "Andreas"
       nationality: "Belgium"
       instrument: "Guitar"
@@ -57,6 +59,7 @@ Members:
       socialhandles:
           Twitter: "https://twitter.com/Metallion98"
           Dorian Guitars: "https://www.facebook.com/Sophidox/"
+
     - name: "Jumpei"
       nationality: "Japan"
       instrument: "Drums"

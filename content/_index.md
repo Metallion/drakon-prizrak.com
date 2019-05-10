@@ -95,5 +95,5 @@ download:
 contact:
     rename: "contact"
     header: "Contact us"
-    text: '<p>We are always looking for more gigs. Contact us through our social media or e-mail.</p><p><a href="mailto:contact@drakon-prizrak.com">contact@drakon-prizrak.com</p>'
+    text: 'We are always looking for more gigs. Contact us through our social media or e-mail.</p><p><a href="mailto:contact@drakon-prizrak.com">contact@drakon-prizrak.com</a>'
 ---

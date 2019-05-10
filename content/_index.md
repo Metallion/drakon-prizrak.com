@@ -76,7 +76,7 @@ gigs:
     venue_name: "Shimo-Kitazawa Waver"
     venue_address: "〒155-0031 Tokyo-to Setagaya-ku Kitazawa 2-14-13 B1F"
     venue_access: "http://waverwaver.net/pc/access/"
-    google_map: "!1m18!1m12!1m3!1d3241.6828667264067!2d139.66575961559684!3d35.66018433873267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee0fc1cbb5ef%3A0xb97bfa62349bbb69!2sWAVER!5e0!3m2!1sen!2sjp!4v1557411412474!5m2!1sen!2sjp"
+    google_map: '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362.9408142184493!2d139.66624681586987!3d35.66129378509946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee0fc1cbb5ef%3A0xb97bfa62349bbb69!2sWAVER!5e0!3m2!1sen!2sjp!4v1557485744207!5m2!1sen!2sjp" width="85%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
 
   2019-04-18:
     start: "18:00"

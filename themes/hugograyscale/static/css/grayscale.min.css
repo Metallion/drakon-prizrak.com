@@ -51,6 +51,12 @@ a:focus, a:hover {
   color: #990033;
 }
 
+iframe {
+  height: 450px;
+  width: 85%;
+  border: none;
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;

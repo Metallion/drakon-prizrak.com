@@ -31,7 +31,7 @@
         </div>
       </div>
     </nav>
-    
+
     <!-- Intro Header -->
     {{- if isset $.Params "intro" -}}
     <header class="masthead">
@@ -117,17 +117,20 @@
             <div class="improve-contrast-box" id="downloads-contrast">
               <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.download.rename -}}">{{- default "" $.Params.download.header | safeHTML -}}</a></h2>
 
-              {{- range $date, $details := $.Params.gigs -}}
-              <h4>{{ $date }} ({{ $details.day }})</h4>
-              <p>
-                Event Start: {{ $details.start }}<br />
-                Drakon Prizrak Start: {{ $details.drakon_start }}<br />
-                Entrance: {{ $details.entrance }}<br />
-              </p>
-              <h5>{{ $details.venue_name }}</h5>
-              <p>{{ $details.venue_address }}</p>
-              <p><a href="{{ $details.venue_access }}" target="_blank">Access</a></p>
-              <iframe src="https://www.google.com/maps/embed?pb={{ $details.google_map }}" width="85%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+              {{- range $dateString, $details := $.Params.gigs -}}
+              {{- $date := time $dateString -}}
+                {{ if $date.After now  }}
+                <h4>{{ $dateString }} ({{ $date.Weekday }})</h4>
+                <p>
+                  Event Start: {{ $details.start }}<br />
+                  Drakon Prizrak Start: {{ $details.drakon_start }}<br />
+                  Entrance: {{ $details.entrance }}<br />
+                </p>
+                <h5>{{ $details.venue_name }}</h5>
+                <p>{{ $details.venue_address }}</p>
+                <p><a href="{{ $details.venue_access }}" target="_blank">Access</a></p>
+                <iframe src="https://www.google.com/maps/embed?pb={{ $details.google_map }}" width="85%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                {{- end -}}
               {{- end -}}
 
             </div>
@@ -165,7 +168,7 @@
 
     {{- if isset $.Params "mapsapikey" -}}
     <!-- Map Section -->
-    <div id="map"></div> 
+    <div id="map"></div>
     {{- end -}}
 
 {{- end -}}

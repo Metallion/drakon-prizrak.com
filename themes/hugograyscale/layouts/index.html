@@ -119,7 +119,7 @@
 
               {{- range $dateString, $details := $.Params.gigs -}}
               {{- $date := time $dateString -}}
-                {{ if $date.After now  }}
+                {{- if $date.After now -}}
                 <h4>{{ $dateString }} ({{ $date.Weekday }})</h4>
                 <p>
                   Event Start: {{ $details.start }}<br />
@@ -129,7 +129,20 @@
                 <h5>{{ $details.venue_name }}</h5>
                 <p>{{ $details.venue_address }}</p>
                 <p><a href="{{ $details.venue_access }}" target="_blank">Access</a></p>
-                <iframe src="https://www.google.com/maps/embed?pb={{ $details.google_map }}" width="85%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p><iframe src="https://www.google.com/maps/embed?pb={{ $details.google_map }}" width="85%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+                {{- end -}}
+              {{- end -}}
+
+              <h3>Past live events</h3>
+              {{- range $dateString, $details := $.Params.gigs -}}
+              {{- $date := time $dateString -}}
+                {{- if $date.Before now -}}
+                <h4>{{ $dateString }} ({{ $date.Weekday }})</h4>
+                <p>
+                  Tsuji-san 40th guitar anniversary live event<br />
+                  <a href="{{ $details.venue_access  }}" target="_blank">{{ $details.venue_name }}</a><br />
+                  {{ $details.venue_address }}
+                </p>'
                 {{- end -}}
               {{- end -}}
 

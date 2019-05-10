@@ -70,7 +70,6 @@ Members:
 
 gigs:
   2019-07-06:
-    day: "Saturday" #TODO: Get this from the date
     start: "pending"
     drakon_start: "pending"
     entrance: "pending"
@@ -80,7 +79,6 @@ gigs:
     google_map: "!1m18!1m12!1m3!1d3241.6828667264067!2d139.66575961559684!3d35.66018433873267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee0fc1cbb5ef%3A0xb97bfa62349bbb69!2sWAVER!5e0!3m2!1sen!2sjp!4v1557411412474!5m2!1sen!2sjp"
 
   2019-04-18:
-    day: "Thursday"
     start: "18:00"
     drakon_start: "20:00"
     entrance: "1000 yen"

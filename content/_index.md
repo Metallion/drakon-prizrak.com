@@ -90,10 +90,8 @@ gigs:
 download:
     rename: "live"
     header: "Live events"
-    text: ''
 
 contact:
     rename: "contact"
     header: "Contact us"
-    text: 'We are always looking for more gigs. Contact us through our social media or e-mail.</p><p><a href="mailto:contact@drakon-prizrak.com">contact@drakon-prizrak.com</a>'
 ---

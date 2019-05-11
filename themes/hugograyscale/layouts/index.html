@@ -158,7 +158,9 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.contact.rename -}}">{{- default "" $.Params.contact.header | safeHTML -}}</a></h2>
-            <p>{{- default "" $.Params.contact.text | safeHTML -}}</p>
+            <p>We are always looking for more gigs. Contact us through our social media or e-mail.</p>
+            <p><a href="mailto:contact@drakon-prizrak.com">contact@drakon-prizrak.com</a></p>
+
             {{- if isset $.Params "socialhandles" -}}
             <ul class="list-inline banner-social-buttons">
               {{- range $name, $url := $.Params.socialhandles -}}

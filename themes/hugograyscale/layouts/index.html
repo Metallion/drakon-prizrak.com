@@ -96,7 +96,10 @@
 
             <div class="member-nss">
               {{- range $name, $url := $member.socialhandles -}}
-                <a href="{{ $url }}" target="_blank" class="btn"><i class="fa fa-{{ $name }} fa-fw"></i><span class="network-name">{{ $name }}</span></a>
+                <a href="{{ $url }}" target="_blank" class="btn">
+                  <i class="fa fa-{{ $name }} fa-fw"></i>
+                  <span class="network-name">{{ $name }}</span>
+                </a>
               {{- end -}}
             </div>
           </div>

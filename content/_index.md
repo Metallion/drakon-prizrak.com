@@ -15,10 +15,10 @@ copyright: "Drakon Prizrak"
 #mapsapikey: xxx
 
 socialhandles:
-    Instagram: "https://instagram.com/drakonprizrakofficial"
-    Youtube:   "https://youtube.com/channel/UCY1jxlZ3nHRgT51OOfSKhVA"
-    Twitter:   "https://twitter.com/DrakonPrizrak"
-    Facebook:  "https://www.facebook.com/drakonprizrakofficial"
+    instagram: "https://instagram.com/drakonprizrakofficial"
+    youtube:   "https://youtube.com/channel/UCY1jxlZ3nHRgT51OOfSKhVA"
+    twitter:   "https://twitter.com/DrakonPrizrak"
+    facebook:  "https://www.facebook.com/drakonprizrakofficial"
 
 menu:
 

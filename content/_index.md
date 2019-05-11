@@ -37,9 +37,9 @@ Members:
       bands: "Evanescence / Nightwish / In This Moment / Korn"
       loves: "Soy Latte / Vegan Moussaka / Cats / The Occult"
       socialhandles:
-            Twitter: "https://twitter.com/sterikogias"
-            Instagram: "https://www.instagram.com/sterikogias/"
-            Facebook: "https://www.facebook.com/sterikogias"
+            twitter: "https://twitter.com/sterikogias"
+            instagram: "https://www.instagram.com/sterikogias/"
+            facebook: "https://www.facebook.com/sterikogias"
 
     - name: "Alya"
       nationality: "Russia"
@@ -47,9 +47,9 @@ Members:
       bands: "Rammstein / Pink Floyd / Scorpions"
       loves: "Playing mobile games"
       socialhandles:
-          Twitter: "https://twitter.com/elegantbass"
-          Instagram: "https://www.instagram.com/aya_drakon"
-          Facebook: "https://www.facebook.com/profile.php?id=100000228759105"
+          twitter: "https://twitter.com/elegantbass"
+          instagram: "https://www.instagram.com/aya_drakon"
+          facebook: "https://www.facebook.com/profile.php?id=100000228759105"
 
     - name: "Andreas"
       nationality: "Belgium"
@@ -57,8 +57,8 @@ Members:
       bands: "Iron Maiden / Sodom / After Forever / Samantha Fish"
       loves: "Gaming / Metal / Linux / Pro Wrestling"
       socialhandles:
-          Twitter: "https://twitter.com/Metallion98"
-          Dorian Guitars: "https://www.facebook.com/Sophidox/"
+          twitter: "https://twitter.com/Metallion98"
+          dorian Guitars: "https://www.facebook.com/Sophidox/"
 
     - name: "Jumpei"
       nationality: "Japan"
@@ -66,7 +66,7 @@ Members:
       bands: "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
       loves: "Trying various types of food"
       socialhandles:
-          Instagram: "https://www.instagram.com/jp_drakon"
+          instagram: "https://www.instagram.com/jp_drakon"
 
 gigs:
   2019-07-06:

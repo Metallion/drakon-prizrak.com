@@ -130,10 +130,14 @@ iframe {
 }
 
 .masthead {
-  display: table;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
   width: 100%;
-  height: auto;
-  padding: 200px 0;
+  height: 65%;
+  min-height: 480px;
+  /*padding: 200px 0;*/
   text-align: center;
   color: white;
   background: url("../img/intro-bg.jpg") no-repeat top center scroll;
@@ -144,37 +148,40 @@ iframe {
   background-size: cover;
 }
 
-@media (min-width: 768px, max-width: 1920px) {
+.dp-logo {
+  /*background: url("../img/DrakonPrizrak_White.svg") no-repeat top center scroll;*/
+  width: 80%;
+  max-width: 1600px;
+}
+
+#logo {
+  width: 100%;
+}
+
+@media (max-width: 1920px) {
   .masthead {
     background: url("../img/intro-bg-1080p.jpg") no-repeat top center scroll;
+  }
+
+  .dp-logo {
+    width: 90%;
+    max-width: 800px;
   }
 }
 
 @media (max-width: 767px) {
   .masthead {
-    background: url("../img/intro-bg-1024.jpg") no-repeat top center scroll;
+    margin-top: 20px;
+    background: url("../img/intro-bg-900.jpg") no-repeat top center scroll;
   }
-}
 
-#logo {
-  position: absolute;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
-}
+  .dp-logo {
+    width: 100%;
+  }
 
-.masthead .intro-body {
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.masthead .intro-body .brand-heading {
-  font-size: 50px;
-}
-
-.masthead .intro-body .intro-text {
-  font-size: 18px;
+  .scroll-indicator {
+    display: none;
+  }
 }
 
 .improve-contrast-box {
@@ -192,19 +199,13 @@ iframe {
     height: 100%;
     padding: 0;
   }
-  .masthead .intro-body .brand-heading {
-    font-size: 50px;
-  }
-  .masthead .intro-body .intro-text {
-    font-size: 22px;
-  }
 }
 
 .btn-circle {
   font-size: 26px;
   width: 55px;
   height: 55px;
-  margin-top: 15px;
+  margin-bottom: 1%;
   line-height: 45px;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;

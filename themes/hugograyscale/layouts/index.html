@@ -35,17 +35,13 @@
     <!-- Intro Header -->
     {{- if isset $.Params "intro" -}}
     <header class="masthead">
-      <div class="intro-body">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <a href="#{{ .Scratch.Get "about" }}" class="js-scroll-trigger">
-                <p class="intro-text">{{- default "" $.Params.intro.text | safeHTML -}}</p>
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
+      <a href="#{{ .Scratch.Get "about" }}" class="dp-logo js-scroll-trigger">
+        <img id='logo' alt='Drakon Prizrak logo' src='img/DrakonPrizrak_White.svg' />
+      </a>
+
+      <a class="scroll-indicator btn btn-circle js-scroll-trigger" href="#about">
+        <i class="fa fa-angle-double-down animated"></i>
+      </a>
     </header>
     {{ end }}
 

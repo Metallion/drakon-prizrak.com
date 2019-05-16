@@ -23,7 +23,7 @@ socialhandles:
 menu:
 
 intro:
-    text: "<img id='logo' alt='Drakon Prizrak logo' src='img/DrakonPrizrak_White.svg' />"
+    text: ""
 
 About:
     rename: "about"

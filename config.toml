@@ -14,7 +14,7 @@ languageName = "English"
 weight = 2
 
 description = "Drakon Prizrak: A multicultural metal band from Japan."
-top = "Drakon Prizrak"
+top = "Home"
 menuText = "Menu"
 
 [languages.en.languageSwitcher]

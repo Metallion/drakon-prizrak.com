@@ -57,6 +57,11 @@ iframe {
   border: none;
 }
 
+.language-switcher-flag {
+  width: 40px;
+  margin-right: 5px;
+}
+
 #mainNav {
   font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin-bottom: 0;

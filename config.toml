@@ -13,6 +13,23 @@ languageName = "English"
 weight = 1
 
 description = "Drakon Prizrak: A multicultural metal band from Japan."
+menuText = "Menu"
+
+[[languages.en.menus]]
+  text = "about"
+  target= "#about"
+
+[[languages.en.menus]]
+  text = "members"
+  target= "#members"
+
+[[languages.en.menus]]
+  text = "live"
+  target= "#live"
+
+[[languages.en.menus]]
+  text = "contact"
+  target= "#contact"
 
 [languages.en.about]
   header = "About Drakon Prizrak"
@@ -110,6 +127,23 @@ languageName = "日本語"
 weight = 2
 
 description = "国際的メタルバンドDrakon Prizrak。"
+menuText = "メニュー"
+
+[[languages.jp.menus]]
+  text = "Drakon Prizrak"
+  target= "#about"
+
+[[languages.jp.menus]]
+  text = "メンバー"
+  target= "#members"
+
+[[languages.jp.menus]]
+  text = "ライブ"
+  target= "#live"
+
+[[languages.jp.menus]]
+  text = "お問い合わせ"
+  target= "#contact"
 
 [languages.jp.about]
     header = "Drakon Prizrak"

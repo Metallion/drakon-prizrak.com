@@ -1,31 +1,23 @@
 {{- define "main" -}}
-    {{- $.Scratch.Set "about" "about" -}}
-    {{- $.Scratch.Set "members" "members" -}}
-    {{- $.Scratch.Set "download" "live" -}}
-    {{- $.Scratch.Set "contact" "contact" -}}
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger improve-contrast-box" href="#page-top">{{ $.Site.Title }}</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
+          {{- $.Site.Params.menuText -}}
           <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            {{- range $pagesect := ( slice "about" "members" "download" "contact" ) -}}
-              {{- if isset $.Params $pagesect -}}
+            {{- range $menuItem := $.Site.Params.menus -}}
                 <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger improve-contrast-box" href="#{{ $.Scratch.Get $pagesect }}">{{- $.Scratch.Get $pagesect -}}</a>
+                  <a class="nav-link js-scroll-trigger improve-contrast-box" href="{{- $menuItem.target -}}">{{- $menuItem.text -}}</a>
                 </li>
-              {{- end -}}
             {{- end -}}
-            {{- if isset $.Params "menu" -}}
-              {{- range $menuitem := $.Params.menu -}}
-                <li class="nav-item">
-                  <a class="nav-link js-scroll-trigger improve-contrast-box" href="{{ $menuitem.url | safeHTML }}">{{- default $menuitem.url $menuitem.name | safeHTML -}}</a>
-                </li>
-              {{- end -}}
+            {{- range $menuitem := $.Params.menus -}}
+              <li class="nav-item">
+                <a class="nav-link js-scroll-trigger improve-contrast-box" href="{{ $menuitem.url | safeHTML }}">{{- default $menuitem.url $menuitem.name | safeHTML -}}</a>
+              </li>
             {{- end -}}
           </ul>
         </div>
@@ -146,11 +138,11 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="{{ .Scratch.Get "contact" }}" class="content-section text-center">
+    <section id="contact" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.contact.rename -}}">{{- $.Site.Params.contact.header | safeHTML -}}</a></h2>
+            <h2><a class="header-link js-scroll-trigger" href="#contact">{{- $.Site.Params.contact.header | safeHTML -}}</a></h2>
             <p>{{- $.Site.Params.contact.text | safeHTML -}}</p>
             <p><a href="mailto:contact@drakon-prizrak.com">contact@drakon-prizrak.com</a></p>
 

@@ -110,7 +110,7 @@
       <div class="container">
         <div class="col-lg-8 mx-auto">
             <div class="improve-contrast-box" id="downloads-contrast">
-              <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.download.rename -}}">{{- $.Site.Params.live.header | safeHTML -}}</a></h2>
+              <h2><a class="header-link js-scroll-trigger" href="#live">{{- $.Site.Params.live.header | safeHTML -}}</a></h2>
 
               {{- range $event := $.Site.Params.live.events -}}
               {{- $date := time $event.date -}}

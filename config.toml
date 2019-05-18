@@ -2,8 +2,8 @@ baseURL = "https://drakon-prizrak.com/"
 languageCode = "en-us"
 title = "Drakon Prizrak"
 theme = "hugograyscale"
+copyright = "Drakon Prizrak"
 
-copyright = "Copyright (c) Drakon Prizrak."
 canonifyurls = true
 paginate = 3
 

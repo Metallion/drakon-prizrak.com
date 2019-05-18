@@ -14,6 +14,10 @@ weight = 1
 
 description = "Drakon Prizrak: A multicultural metal band from Japan."
 
+[languages.en.about]
+  header = "About Drakon Prizrak"
+  text = 'We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.'
+
 [[languages.en.members]]
   name = "Steri"
   nationality = "Greece"
@@ -54,10 +58,6 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
   loves = "Trying various types of food"
   [languages.en.members.socialhandles]
     instagram = "https://www.instagram.com/jp_drakon"
-
-[languages.en.about]
-  header = "About Drakon Prizrak"
-  text = 'We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.'
 
 [languages.jp]
 languageName = "日本語"

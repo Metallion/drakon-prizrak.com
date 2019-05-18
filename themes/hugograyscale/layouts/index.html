@@ -111,15 +111,15 @@
               {{- range $event := $.Site.Params.live.events -}}
               {{- $date := time $event.date -}}
                 {{- if $date.After now -}}
-                <h4>{{ $event.date }} ({{ $date.Weekday }})</h4>
+                <h4>{{ $event.date }} ({{ $event.weekday }})</h4>
                 <p>
-                  Event Start: {{ $event.start }}<br />
+                  Open: {{ $event.open }} Start: {{ $event.start }}<br />
                   Drakon Prizrak Start: {{ $event.drakon_start }}<br />
-                  Entrance: {{ $event.entrance }}<br />
+                  {{ $.Site.Params.live.entrance }}: {{ $event.entrance }}<br />
                 </p>
                 <h5>{{ $event.venue_name }}</h5>
                 <p>{{ $event.venue_address }}</p>
-                <p><a href="{{ $event.venue_access }}" target="_blank">Access</a></p>
+                <p><a href="{{ $event.venue_access }}" target="_blank">{{- $.Site.Params.live.access -}}</a></p>
                 <p>{{ htmlUnescape $event.google_map | safeHTML }}</p>
                 {{- end -}}
               {{- end -}}

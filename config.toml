@@ -101,9 +101,13 @@ loves = "Loves"
 [languages.en.live]
 header = "Live events"
 past_lives = "Past live events"
+entrance = "Entrance"
+access = "Access"
+
 
 [[languages.en.live.events]]
   date = "2019-07-06"
+  weekday = "Saturday"
   title = ""
   open = "12:00"
   start = "12:30"
@@ -116,6 +120,7 @@ past_lives = "Past live events"
 
 [[languages.en.live.events]]
   date = "2019-04-18"
+  weekday = "Thursday"
   title = "Tsuji-san 40th guitar anniversary live event"
   start = "18:00"
   drakon_start = "20:00"
@@ -221,9 +226,12 @@ loves = "趣味"
 [languages.jp.live]
 header = "ライブ"
 past_lives = "過去のライブ"
+entrance = "入場"
+access = "アクセス"
 
 [[languages.jp.live.events]]
   date = "2019-07-06"
+  weekday = "土"
   title = ""
   open = "12:00"
   start = "12:30"
@@ -236,6 +244,7 @@ past_lives = "過去のライブ"
 
 [[languages.jp.live.events]]
   date = "2019-04-18"
+  weekday = "木"
   title = "辻さんギター生活40周年祝い"
   start = "18:00"
   drakon_start = "20:00"

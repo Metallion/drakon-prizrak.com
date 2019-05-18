@@ -59,10 +59,10 @@
 
     <!-- Members Section -->
     <section id="members" class="content-section text-center">
-      <h2><a class="header-link js-scroll-trigger" href="#members">Members</a></h2>
+      <h2><a class="header-link js-scroll-trigger" href="#members">{{- $.Site.Params.members.header -}}</a></h2>
       <div class="member-list">
 
-      {{- range $member := $.Site.Params.members -}}
+      {{- range $member := $.Site.Params.members.members -}}
         <div id="{{- $member.name -}}" class="member-item">
           <div class="member-text">
             <h3>{{- $member.name -}}</h3>
@@ -70,19 +70,19 @@
 
             <div class="member-info">
               <div class="member-info-line">
-                <div class="member-info-line-header">Nationality</div><div>{{- $member.nationality -}}</div>
+                <div class="member-info-line-header">{{- $.Site.Params.members.nationality -}}</div><div>{{- $member.nationality -}}</div>
               </div>
 
               <div class="member-info-line">
-                <div class="member-info-line-header">Instrument</div><div>{{- $member.instrument -}}</div>
+                <div class="member-info-line-header">{{- $.Site.Params.members.instrument -}}</div><div>{{- $member.instrument -}}</div>
               </div>
 
               <div class="member-info-line">
-                <div class="member-info-line-header">Favourite bands</div><div>{{- $member.bands -}}</div>
+                <div class="member-info-line-header">{{- $.Site.Params.members.bands -}}</div><div>{{- $member.bands -}}</div>
               </div>
 
               <div class="member-info-line">
-                <div class="member-info-line-header">Loves</div><div>{{- $member.loves -}}</div>
+                <div class="member-info-line-header">{{- $.Site.Params.members.loves -}}</div><div>{{- $member.loves -}}</div>
               </div>
             </div><!--member-info-->
 

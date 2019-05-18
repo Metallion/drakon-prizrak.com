@@ -18,7 +18,14 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
   header = "About Drakon Prizrak"
   text = 'We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.'
 
-[[languages.en.members]]
+[languages.en.members]
+header = "Members"
+nationality = "Nationality"
+instrument = "Instrument"
+bands = "Favourite bands"
+loves = "Loves"
+
+[[languages.en.members.members]]
   name = "Steri"
   picture = "Steri.jpg"
   nationality = "Greece"
@@ -26,12 +33,12 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
   instrument = "Vocals / Programming"
   bands = "Evanescence / Nightwish / In This Moment / Korn"
   loves = "Soy Latte / Vegan Moussaka / Cats / The Occult"
-  [languages.en.members.socialhandles]
+  [languages.en.members.members.socialhandles]
     twitter = "https://twitter.com/sterikogias"
     instagram = "https://www.instagram.com/sterikogias/"
     facebook = "https://www.facebook.com/sterikogias"
 
-[[languages.en.members]]
+[[languages.en.members.members]]
   name = "Alya"
   picture = "Alya.jpg"
   nationality = "Russia"
@@ -39,12 +46,12 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
   instrument = "Bass"
   bands = "Rammstein / Pink Floyd / Scorpions"
   loves = "Playing mobile games"
-  [languages.en.members.socialhandles]
+  [languages.en.members.members.socialhandles]
     twitter = "https://twitter.com/elegantbass"
     instagram = "https://www.instagram.com/aya_drakon"
     facebook = "https://www.facebook.com/profile.php?id=100000228759105"
 
-[[languages.en.members]]
+[[languages.en.members.members]]
   name = "Andreas"
   picture = "Andreas.jpg"
   nationality = "Belgium"
@@ -52,11 +59,11 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
   instrument = "Guitar"
   bands = "Iron Maiden / Sodom / After Forever / Samantha Fish"
   loves = "Gaming / Metal / Linux / Pro Wrestling"
-  [languages.en.members.socialhandles]
+  [languages.en.members.members.socialhandles]
     twitter = "https://twitter.com/Metallion98"
     "dorian Guitars" = "https://www.facebook.com/Sophidox/"
 
-[[languages.en.members]]
+[[languages.en.members.members]]
   name = "Jumpei"
   picture = "Jumpei.jpg"
   nationality = "Japan"
@@ -64,7 +71,7 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
   instrument = "Drums"
   bands = "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
   loves = "Trying various types of food"
-  [languages.en.members.socialhandles]
+  [languages.en.members.members.socialhandles]
     instagram = "https://www.instagram.com/jp_drakon"
 
 [languages.en.live]
@@ -108,7 +115,14 @@ description = "国際的メタルバンドDrakon Prizrak。"
     header = "Drakon Prizrak"
     text = '国際的ゴシック・シンフォニック系メタルバンド。<br />メンバーは全て国籍が違います。'
 
-[[languages.jp.members]]
+[languages.jp.members]
+header = "メンバー"
+nationality = "国籍"
+instrument = "パート"
+bands = "影響を受けたバンド"
+loves = "趣味"
+
+[[languages.jp.members.members]]
   name = "ステリ"
   picture = "Steri.jpg"
   nationality = "ギリシャ"
@@ -116,12 +130,12 @@ description = "国際的メタルバンドDrakon Prizrak。"
   instrument = "ボーカル / プログラミング"
   bands = "エヴァネッセンス / ナイトウィッシュ / イン・ディス・モーメント / コーン"
   loves = "ソイラテ / ビーガンムサカ / 猫 / オカルト"
-  [languages.jp.members.socialhandles]
+  [languages.jp.members.members.socialhandles]
     twitter = "https://twitter.com/sterikogias"
     instagram = "https://www.instagram.com/sterikogias/"
     facebook = "https://www.facebook.com/sterikogias"
 
-[[languages.jp.members]]
+[[languages.jp.members.members]]
   name = "アリャ"
   picture = "Alya.jpg"
   nationality = "ロシア"
@@ -129,12 +143,12 @@ description = "国際的メタルバンドDrakon Prizrak。"
   instrument = "ベース"
   bands = "ラムシュタイン / ピンク・フロイド / スコーピオンズ"
   loves = "モバイルゲーム"
-  [languages.jp.members.socialhandles]
+  [languages.jp.members.members.socialhandles]
     twitter = "https://twitter.com/elegantbass"
     instagram = "https://www.instagram.com/aya_drakon"
     facebook = "https://www.facebook.com/profile.php?id=100000228759105"
 
-[[languages.jp.members]]
+[[languages.jp.members.members]]
   name = "アンドレアス"
   picture = "Andreas.jpg"
   nationality = "ベルギー"
@@ -142,11 +156,11 @@ description = "国際的メタルバンドDrakon Prizrak。"
   instrument = "ギター"
   bands = "アイアン・メイデン / ソドム / アフター・フォーエヴァー / サマンサ・フィッシュ"
   loves = "ゲーム / メタル / リナックス / プロレス"
-  [languages.jp.members.socialhandles]
+  [languages.jp.members.members.socialhandles]
     twitter = "https://twitter.com/Metallion98"
     "dorian Guitars" = "https://www.facebook.com/Sophidox/"
 
-[[languages.jp.members]]
+[[languages.jp.members.members]]
   name = "ジュンペイ"
   picture = "Jumpei.jpg"
   nationality = "日本"
@@ -154,7 +168,7 @@ description = "国際的メタルバンドDrakon Prizrak。"
   instrument = "ドラム"
   bands = "マイルス・デイヴィス・クインテット / キース・ジャレット・トリオ / アヴィシャイ ・コーエン・トリオ"
   loves = "食べ歩き"
-  [languages.jp.members.socialhandles]
+  [languages.jp.members.members.socialhandles]
     instagram = "https://www.instagram.com/jp_drakon"
 
 [languages.jp.live]

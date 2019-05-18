@@ -146,17 +146,16 @@
     </section>
 
     <!-- Contact Section -->
-    {{- if isset $.Params "contact" -}}
     <section id="{{ .Scratch.Get "contact" }}" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.contact.rename -}}">{{- default "" $.Params.contact.header | safeHTML -}}</a></h2>
-            <p>We are always looking for more gigs. Contact us through our social media or e-mail.</p>
+            <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.contact.rename -}}">{{- $.Site.Params.contact.header | safeHTML -}}</a></h2>
+            <p>{{- $.Site.Params.contact.text | safeHTML -}}</p>
             <p><a href="mailto:contact@drakon-prizrak.com">contact@drakon-prizrak.com</a></p>
 
             <ul class="list-inline banner-social-buttons">
-              {{- range $name, $url := $.Param "socialhandles" -}}
+              {{- range $name, $url := $.Site.Params.socialhandles -}}
 
               <li class="list-inline-item">
                 <a href="{{ $url }}" class="btn btn-default btn-lg">
@@ -171,7 +170,6 @@
         </div>
       </div>
     </section>
-    {{- end -}}
 
     {{- if isset $.Params "mapsapikey" -}}
     <!-- Map Section -->

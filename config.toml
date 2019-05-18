@@ -86,6 +86,10 @@ past_lives = "Past live events"
   venue_access = "http://gyoen-sound.com/access.html"
   google_map = "!1m14!1m8!1m3!1d4582.831632100654!2d139.7074435205412!3d35.68804824942547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cc33dd89ead%3A0x3bdd383c615345d8!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yS5LiB55uu77yT4oiS77yR77yS!5e0!3m2!1sja!2sjp!4v1557410464030!5m2!1sja!2sjp"
 
+[languages.en.contact]
+  header = "Contact us"
+  text = "We are always looking for more gigs. Contact us through our social media or e-mail."
+
 [languages.jp]
 languageName = "日本語"
 weight = 2
@@ -163,6 +167,10 @@ past_lives = "過去のライブ"
   venue_address = "東京都新宿区新宿２丁目3-12 光和ビル B1F"
   venue_access = "http://gyoen-sound.com/access.html"
   google_map = "!1m14!1m8!1m3!1d4582.831632100654!2d139.7074435205412!3d35.68804824942547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cc33dd89ead%3A0x3bdd383c615345d8!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yS5LiB55uu77yT4oiS77yR77yS!5e0!3m2!1sja!2sjp!4v1557410464030!5m2!1sja!2sjp"
+
+[languages.jp.contact]
+  header = "お問い合わせ"
+  text = "Drakon Prizrakは常に出演ライブを熱望しています。<br />SNSやEメールで、すぐ連絡下さい。"
 
 [params]
 

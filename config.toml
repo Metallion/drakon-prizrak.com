@@ -14,6 +14,47 @@ weight = 1
 
 description = "Drakon Prizrak: A multicultural metal band from Japan."
 
+[[languages.en.members]]
+  name = "Steri"
+  nationality = "Greece"
+  instrument = "Vocals / Programming"
+  bands = "Evanescence / Nightwish / In This Moment / Korn"
+  loves = "Soy Latte / Vegan Moussaka / Cats / The Occult"
+  [languages.en.members.socialhandles]
+    twitter = "https://twitter.com/sterikogias"
+    instagram = "https://www.instagram.com/sterikogias/"
+    facebook = "https://www.facebook.com/sterikogias"
+
+[[languages.en.members]]
+  name = "Alya"
+  nationality = "Russia"
+  instrument = "Bass"
+  bands = "Rammstein / Pink Floyd / Scorpions"
+  loves = "Playing mobile games"
+  [languages.en.members.socialhandles]
+    twitter = "https://twitter.com/elegantbass"
+    instagram = "https://www.instagram.com/aya_drakon"
+    facebook = "https://www.facebook.com/profile.php?id=100000228759105"
+
+[[languages.en.members]]
+  name = "Andreas"
+  nationality = "Belgium"
+  instrument = "Guitar"
+  bands = "Iron Maiden / Sodom / After Forever / Samantha Fish"
+  loves = "Gaming / Metal / Linux / Pro Wrestling"
+  [languages.en.members.socialhandles]
+    twitter = "https://twitter.com/Metallion98"
+    "dorian Guitars" = "https://www.facebook.com/Sophidox/"
+
+[[languages.en.members]]
+  name = "Jumpei"
+  nationality = "Japan"
+  instrument = "Drums"
+  bands = "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
+  loves = "Trying various types of food"
+  [languages.en.members.socialhandles]
+    instagram = "https://www.instagram.com/jp_drakon"
+
 [languages.en.about]
   header = "About Drakon Prizrak"
   text = 'We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.'

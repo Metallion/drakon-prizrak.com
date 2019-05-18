@@ -62,7 +62,7 @@
       <h2><a class="header-link js-scroll-trigger" href="#members">Members</a></h2>
       <div class="member-list">
 
-      {{- range $member := $.Params.members -}}
+      {{- range $member := $.Site.Params.members -}}
         <div id="{{- $member.name -}}" class="member-item">
           <div class="member-text">
             <h3>{{- $member.name -}}</h3>

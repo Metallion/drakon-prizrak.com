@@ -7,5 +7,31 @@ copyright = "Copyright (c) Drakon Prizrak."
 canonifyurls = true
 paginate = 3
 
-[params]
+[languages]
+[languages.en]
+languageName = "English"
+weight = 1
+
 description = "Drakon Prizrak: A multicultural metal band from Japan."
+
+[languages.en.about]
+  header = "About Drakon Prizrak"
+  text = 'We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.'
+
+[languages.jp]
+languageName = "日本語"
+weight = 2
+
+description = "国際的メタルバンドDrakon Prizrak。"
+
+[languages.jp.about]
+    header = "Drakon Prizrak"
+    text = '何もねえ'
+
+[params]
+
+[params.socialhandles]
+    instagram = "https://instagram.com/drakonprizrakofficial"
+    youtube =   "https://youtube.com/channel/UCY1jxlZ3nHRgT51OOfSKhVA"
+    twitter =   "https://twitter.com/DrakonPrizrak"
+    facebook =  "https://www.facebook.com/drakonprizrakofficial"

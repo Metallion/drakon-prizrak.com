@@ -33,7 +33,6 @@
     </nav>
 
     <!-- Intro Header -->
-    {{- if isset $.Params "intro" -}}
     <header class="masthead">
       <a href="#{{ .Scratch.Get "about" }}" class="dp-logo js-scroll-trigger">
         <img id='logo' alt='Drakon Prizrak logo' src='img/DrakonPrizrak_White.svg' />
@@ -43,23 +42,20 @@
         <i class="fa fa-angle-double-down animated"></i>
       </a>
     </header>
-    {{ end }}
 
     <!-- About Section -->
-    {{- if isset $.Params "about" -}}
-    <section id="{{ .Scratch.Get "about" }}" class="content-section text-center">
+    <section id="about" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2><a class="header-link js-scroll-trigger" href="#{{- $.Params.about.rename -}}">{{- default "" $.Params.about.header | safeHTML -}}</a></h2>
-            <p>{{- default "" $.Params.about.text | safeHTML -}}</p>
+            <h2><a class="header-link js-scroll-trigger" href="#about">{{- $.Site.Params.about.header | safeHTML -}}</a></h2>
+            <p>{{- $.Site.Params.about.text | safeHTML -}}</p>
 
           </div>
 
         </div>
       </div>
     </section>
-    {{- end -}}
 
     <!-- Members Section -->
     <section id="members" class="content-section text-center">
@@ -160,9 +156,8 @@
             <p>We are always looking for more gigs. Contact us through our social media or e-mail.</p>
             <p><a href="mailto:contact@drakon-prizrak.com">contact@drakon-prizrak.com</a></p>
 
-            {{- if isset $.Params "socialhandles" -}}
             <ul class="list-inline banner-social-buttons">
-              {{- range $name, $url := $.Params.socialhandles -}}
+              {{- range $name, $url := $.Param "socialhandles" -}}
 
               <li class="list-inline-item">
                 <a href="{{ $url }}" class="btn btn-default btn-lg">
@@ -173,7 +168,6 @@
 
               {{- end -}}
             </ul>
-            {{- end -}}
           </div>
         </div>
       </div>

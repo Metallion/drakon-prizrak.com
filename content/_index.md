@@ -14,21 +14,9 @@ title: "Drakon Prizrak"
 copyright: "Drakon Prizrak"
 #mapsapikey: xxx
 
-socialhandles:
-    instagram: "https://instagram.com/drakonprizrakofficial"
-    youtube:   "https://youtube.com/channel/UCY1jxlZ3nHRgT51OOfSKhVA"
-    twitter:   "https://twitter.com/DrakonPrizrak"
-    facebook:  "https://www.facebook.com/drakonprizrakofficial"
-
 menu:
 
-intro:
-    text: ""
-
 About:
-    rename: "about"
-    header: "About Drakon Prizrak"
-    text: 'We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.'
 
 Members:
     - name: "Steri"

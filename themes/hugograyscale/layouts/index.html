@@ -35,7 +35,7 @@
     <!-- Intro Header -->
     <header class="masthead">
       <a href="#{{ .Scratch.Get "about" }}" class="dp-logo js-scroll-trigger">
-        <img id='logo' alt='Drakon Prizrak logo' src='img/DrakonPrizrak_White.svg' />
+        <img id='logo' alt='Drakon Prizrak logo' src='{{- "img/DrakonPrizrak_White.svg" | absURL -}}' />
       </a>
 
       <a class="scroll-indicator btn btn-circle js-scroll-trigger" href="#about">
@@ -66,7 +66,7 @@
         <div id="{{- $member.name -}}" class="member-item">
           <div class="member-text">
             <h3>{{- $member.name -}}</h3>
-            <img class="member-flag" alt="{{- $member.nationality }} Flag" src="img/flags/{{- $member.nationality -}}.svg">
+            <img class="member-flag" alt="{{- $member.nationality }} Flag" src={{- printf "img/flags/%s" $member.flag | absURL -}}>
 
             <div class="member-info">
               <div class="member-info-line">
@@ -97,7 +97,7 @@
           </div>
 
           <div class="member-image">
-            <img alt="{{- $member.name -}}" src="img/members/{{- $member.name -}}.jpg" />
+            <img alt="{{- $member.name -}}" src="{{- printf "img/members/%s" $member.picture | absURL -}}" />
           </div>
         </div><!--member-item-->
       {{- end -}}

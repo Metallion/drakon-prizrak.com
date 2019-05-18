@@ -20,7 +20,9 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
 
 [[languages.en.members]]
   name = "Steri"
+  picture = "Steri.jpg"
   nationality = "Greece"
+  flag = "Greece.svg"
   instrument = "Vocals / Programming"
   bands = "Evanescence / Nightwish / In This Moment / Korn"
   loves = "Soy Latte / Vegan Moussaka / Cats / The Occult"
@@ -31,7 +33,9 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
 
 [[languages.en.members]]
   name = "Alya"
+  picture = "Alya.jpg"
   nationality = "Russia"
+  flag = "Russia.svg"
   instrument = "Bass"
   bands = "Rammstein / Pink Floyd / Scorpions"
   loves = "Playing mobile games"
@@ -42,7 +46,9 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
 
 [[languages.en.members]]
   name = "Andreas"
+  picture = "Andreas.jpg"
   nationality = "Belgium"
+  flag = "Belgium.svg"
   instrument = "Guitar"
   bands = "Iron Maiden / Sodom / After Forever / Samantha Fish"
   loves = "Gaming / Metal / Linux / Pro Wrestling"
@@ -52,7 +58,9 @@ description = "Drakon Prizrak: A multicultural metal band from Japan."
 
 [[languages.en.members]]
   name = "Jumpei"
+  picture = "Jumpei.jpg"
   nationality = "Japan"
+  flag = "Japan.svg"
   instrument = "Drums"
   bands = "Miles Davis Quintet / Keith Jarrett Trio / Avishai Cohen Trio"
   loves = "Trying various types of food"
@@ -102,7 +110,9 @@ description = "国際的メタルバンドDrakon Prizrak。"
 
 [[languages.jp.members]]
   name = "ステリ"
+  picture = "Steri.jpg"
   nationality = "ギリシャ"
+  flag = "Greece.svg"
   instrument = "ボーカル / プログラミング"
   bands = "エヴァネッセンス / ナイトウィッシュ / イン・ディス・モーメント / コーン"
   loves = "ソイラテ / ビーガンムサカ / 猫 / オカルト"
@@ -113,7 +123,9 @@ description = "国際的メタルバンドDrakon Prizrak。"
 
 [[languages.jp.members]]
   name = "アリャ"
+  picture = "Alya.jpg"
   nationality = "ロシア"
+  flag = "Russia.svg"
   instrument = "ベース"
   bands = "ラムシュタイン / ピンク・フロイド / スコーピオンズ"
   loves = "モバイルゲーム"
@@ -124,7 +136,9 @@ description = "国際的メタルバンドDrakon Prizrak。"
 
 [[languages.jp.members]]
   name = "アンドレアス"
+  picture = "Andreas.jpg"
   nationality = "ベルギー"
+  flag = "Belgium.svg"
   instrument = "ギター"
   bands = "アイアン・メイデン / ソドム / アフター・フォーエヴァー / サマンサ・フィッシュ"
   loves = "ゲーム / メタル / リナックス / プロレス"
@@ -134,7 +148,9 @@ description = "国際的メタルバンドDrakon Prizrak。"
 
 [[languages.jp.members]]
   name = "ジュンペイ"
+  picture = "Jumpei.jpg"
   nationality = "日本"
+  flag = "Japan.svg"
   instrument = "ドラム"
   bands = "マイルス・デイヴィス・クインテット / キース・ジャレット・トリオ / アヴィシャイ ・コーエン・トリオ"
   loves = "食べ歩き"

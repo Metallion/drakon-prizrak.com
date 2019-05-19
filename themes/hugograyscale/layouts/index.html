@@ -128,7 +128,7 @@
               {{- range $event := $.Site.Params.live.events -}}
               {{- $date := time $event.date -}}
                 {{- if $date.Before now -}}
-                <h4>{{ $event.date }} ({{ $date.Weekday }})</h4>
+                <h4>{{ $event.date }} ({{ $event.weekday }})</h4>
                 <p>
                   {{- $event.title -}}<br />
                   <a href="{{ $event.venue_access  }}" target="_blank">{{ $event.venue_name }}</a>

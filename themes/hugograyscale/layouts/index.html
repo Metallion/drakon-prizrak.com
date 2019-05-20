@@ -113,6 +113,7 @@
                 {{- if $date.After now -}}
                 <h4>{{ $event.date }} ({{ $event.weekday }})</h4>
                 <p>
+                  {{- $event.title | safeHTML -}}<br />
                   Open: {{ $event.open }} Start: {{ $event.start }}<br />
                   Drakon Prizrak Start: {{ $event.drakon_start }}<br />
                   {{ $.Site.Params.live.entrance }}: {{ $event.entrance }}<br />
@@ -130,7 +131,7 @@
                 {{- if $date.Before now -}}
                 <h4>{{ $event.date }} ({{ $event.weekday }})</h4>
                 <p>
-                  {{- $event.title -}}<br />
+                  {{- $event.title | safeHTML -}}<br />
                   <a href="{{ $event.venue_access  }}" target="_blank">{{ $event.venue_name }}</a>
                 </p>
                 {{- end -}}

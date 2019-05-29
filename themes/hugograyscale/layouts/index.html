@@ -75,7 +75,7 @@
               </div>
 
               <div class="member-info-line">
-                <div class="member-info-line-header">{{- $.Site.Params.members.bands -}}</div><div>{{- $member.bands -}}</div>
+                <div class="member-info-line-header">{{- $.Site.Params.members.bands -}}</div><div>{{- $member.bands | safeHTML -}}</div>
               </div>
 
               <div class="member-info-line">

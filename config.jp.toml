@@ -1,0 +1,124 @@
+[languages]
+[languages.jp]
+languageName = "日本語"
+weight = 2
+
+description = "国際的メタルバンドDrakon Prizrak。"
+top = "Top"
+menuText = "メニュー"
+
+[languages.jp.languageSwitcher]
+Text = "English"
+Flag = "UK.svg"
+target = "/en"
+
+[[languages.jp.menus]]
+  text = "Drakon Prizrak"
+  target= "#about"
+
+[[languages.jp.menus]]
+  text = "メンバー"
+  target= "#members"
+
+[[languages.jp.menus]]
+  text = "ライブ"
+  target= "#live"
+
+[[languages.jp.menus]]
+  text = "お問い合わせ"
+  target= "#contact"
+
+[languages.jp.about]
+    header = "Drakon Prizrak"
+    text = '国際的ゴシック・シンフォニック系メタルバンド。<br />メンバーは全て国籍が違います。'
+
+[languages.jp.members]
+header = "メンバー"
+nationality = "国籍"
+instrument = "パート"
+bands = "影響を受けたバンド"
+loves = "趣味"
+
+[[languages.jp.members.members]]
+  name = "ステリ"
+  picture = "Steri.jpg"
+  nationality = "ギリシャ"
+  flag = "Greece.svg"
+  instrument = "ボーカル / プログラミング"
+  bands = "エヴァネッセンス / ナイトウィッシュ /<br />イン・ディス・モーメント / コーン"
+  loves = "ソイラテ / ビーガンムサカ / 猫 / オカルト"
+  [languages.jp.members.members.socialhandles]
+    twitter = "https://twitter.com/sterikogias"
+    instagram = "https://www.instagram.com/sterikogias/"
+    facebook = "https://www.facebook.com/sterikogias"
+
+[[languages.jp.members.members]]
+  name = "アリャ"
+  picture = "Alya.jpg"
+  nationality = "ロシア"
+  flag = "Russia.svg"
+  instrument = "ベース"
+  bands = "ラムシュタイン / ピンク・フロイド / スコーピオンズ"
+  loves = "モバイルゲーム"
+  [languages.jp.members.members.socialhandles]
+    twitter = "https://twitter.com/elegantbass"
+    instagram = "https://www.instagram.com/aya_drakon"
+    facebook = "https://www.facebook.com/profile.php?id=100000228759105"
+
+[[languages.jp.members.members]]
+  name = "アンドレアス"
+  picture = "Andreas.jpg"
+  nationality = "ベルギー"
+  flag = "Belgium.svg"
+  instrument = "ギター"
+  bands = "アイアン・メイデン / ソドム /<br />アフター・フォーエヴァー / サマンサ・フィッシュ"
+  loves = "ゲーム / メタル / リナックス / プロレス"
+  [languages.jp.members.members.socialhandles]
+    twitter = "https://twitter.com/Metallion98"
+    "dorian Guitars" = "https://www.facebook.com/Sophidox/"
+
+[[languages.jp.members.members]]
+  name = "ジュンペイ"
+  picture = "Jumpei.jpg"
+  nationality = "日本"
+  flag = "Japan.svg"
+  instrument = "ドラム"
+  bands = "マイルス・デイヴィス・クインテット / キース・ジャレット・トリオ / アヴィシャイ ・コーエン・トリオ"
+  loves = "食べ歩き"
+  [languages.jp.members.members.socialhandles]
+    instagram = "https://www.instagram.com/jp_drakon"
+
+[languages.jp.live]
+header = "ライブ"
+past_lives = "過去のライブ"
+entrance = "入場"
+access = "アクセス"
+
+[[languages.jp.live.events]]
+  date = "2019-07-06"
+  weekday = "土"
+  title = ""
+  open = "12:00"
+  start = "12:30"
+  drakon_start = "19:00"
+  entrance = "1500円"
+  venue_name = "下北沢Waver"
+  venue_address = "東京都世田谷区北沢2-14-13-B1F"
+  venue_access = "http://waverwaver.net/pc/access/"
+  google_map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362.9408142184493!2d139.66624681586987!3d35.66129378509946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee0fc1cbb5ef%3A0xb97bfa62349bbb69!2sWAVER!5e0!3m2!1sen!2sjp!4v1557485744207!5m2!1sen!2sjp" allowfullscreen></iframe>'
+
+[[languages.jp.live.events]]
+  date = "2019-04-18"
+  weekday = "木"
+  title = "辻さんギター生活40周年祝い"
+  start = "18:00"
+  drakon_start = "20:00"
+  entrance = "1000 yen"
+  venue_name = "新宿御苑サウンド"
+  venue_address = "東京都新宿区新宿２丁目3-12 光和ビル B1F"
+  venue_access = "http://gyoen-sound.com/access.html"
+  google_map = "!1m14!1m8!1m3!1d4582.831632100654!2d139.7074435205412!3d35.68804824942547!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cc33dd89ead%3A0x3bdd383c615345d8!2z44CSMTYwLTAwMjIg5p2x5Lqs6YO95paw5a6_5Yy65paw5a6_77yS5LiB55uu77yT4oiS77yR77yS!5e0!3m2!1sja!2sjp!4v1557410464030!5m2!1sja!2sjp"
+
+[languages.jp.contact]
+  header = "お問い合わせ"
+  text = "Drakon Prizrakは常に出演ライブを熱望しています。<br />SNSやEメールで、すぐ連絡下さい。"

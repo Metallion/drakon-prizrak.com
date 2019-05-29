@@ -7,7 +7,6 @@ DefaultContentLanguage = "jp"
 
 canonifyurls = true
 paginate = 3
-
 [params]
 
 [params.socialhandles]

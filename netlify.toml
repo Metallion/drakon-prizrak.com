@@ -1,0 +1,2 @@
+[build]
+command = "hugo --config config.toml,config.jp.toml,config.en.toml"

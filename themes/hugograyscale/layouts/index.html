@@ -109,21 +109,8 @@
             <div class="improve-contrast-box" id="downloads-contrast">
               <h2><a class="header-link js-scroll-trigger" href="#live">{{- $.Site.Params.live.header | safeHTML -}}</a></h2>
 
-              {{- range $event := $.Site.Params.live.events -}}
-              {{- $date := time $event.date -}}
-                {{- if $date.After now -}}
-                <h4>{{- partial (printf "date.%s.html" $.Site.Language.Lang) $date -}}</h4>
-                <p>
-                  {{- $event.title | safeHTML -}}<br />
-                  Open: {{ $event.open }} Start: {{ $event.start }}<br />
-                  Drakon Prizrak Start: {{ $event.drakon_start }}<br />
-                  {{ $.Site.Params.live.entrance }}: {{ $event.entrance }}<br />
-                </p>
-                <h5>{{ $event.venue_name }}</h5>
-                <p>{{ $event.venue_address }}</p>
-                <p><a href="{{ $event.venue_access }}" target="_blank">{{- $.Site.Params.live.access -}}</a></p>
-                <p>{{ htmlUnescape $event.google_map | safeHTML }}</p>
-                {{- end -}}
+              {{- range $key, $event := $.Site.Data.gigs.upcoming -}}
+                {{- partial "live.large.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live) -}}
               {{- end -}}
 
               <h3>{{- $.Site.Params.live.past_lives | safeHTML -}}</h3>

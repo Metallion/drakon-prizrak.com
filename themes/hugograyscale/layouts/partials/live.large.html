@@ -2,12 +2,12 @@
 
 <h4>{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
 <p>
-  {{- .event.title | safeHTML -}}<br />
+  {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
   Open: {{ .event.open }} Start: {{ .event.start }}<br />
   Drakon Prizrak Start: {{ .event.drakon_start }}<br />
-  {{ .live.entrance }}: {{ .event.entrance }}<br />
+  {{ .label.entrance }}: {{ .event.entrance }}{{ .label.yen }}<br />
 </p>
-<h5>{{ .event.venue_name }}</h5>
-<p>{{ .event.venue_address }}</p>
-<p><a href="{{ .event.venue_access }}" target="_blank">{{- .live.access -}}</a></p>
+<h5>{{ echoParam .event (printf "venue_name_%s" .Lang) }}</h5>
+<p>{{ echoParam .event (printf "venue_address_%s" .Lang) }}</p>
+<p><a href="{{ .event.venue_access }}" target="_blank">{{- .label.access -}}</a></p>
 <p>{{ htmlUnescape .event.google_map | safeHTML }}</p>

@@ -97,7 +97,6 @@ access = "Access"
 
 [[languages.en.live.events]]
   date = "2019-07-06"
-  weekday = "Saturday"
   title = "Kotona Party Vol: 6<br />Kotona Summer Festival Tanabata eve"
   open = "12:00"
   start = "12:30"
@@ -110,7 +109,6 @@ access = "Access"
 
 [[languages.en.live.events]]
   date = "2019-04-18"
-  weekday = "Thursday"
   title = "Tsuji-san 40th guitar anniversary live event"
   start = "18:00"
   drakon_start = "20:00"

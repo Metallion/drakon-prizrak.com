@@ -110,15 +110,14 @@
               <h2><a class="header-link js-scroll-trigger" href="#live">{{- $.Site.Params.live.header | safeHTML -}}</a></h2>
 
               {{- range $key, $event := $.Site.Data.gigs.upcoming -}}
-                {{- partial "live.large.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live) -}}
+                {{- partial "live.small.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live) -}}
               {{- end -}}
 
               <h3>{{- $.Site.Params.live.past_lives | safeHTML -}}</h3>
               {{- range $event := $.Site.Data.gigs.past -}}
                 {{- partial "live.past.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live) -}}
               {{- end -}}
-
-            </div>
+          </div>
         </div>
       </div>
     </section>

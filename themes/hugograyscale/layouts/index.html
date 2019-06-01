@@ -112,7 +112,7 @@
               {{- range $event := $.Site.Params.live.events -}}
               {{- $date := time $event.date -}}
                 {{- if $date.After now -}}
-                <h4>{{- partial (printf "live.%s.html" $.Site.Language.Lang) $date -}}</h4>
+                <h4>{{- partial (printf "date.%s.html" $.Site.Language.Lang) $date -}}</h4>
                 <p>
                   {{- $event.title | safeHTML -}}<br />
                   Open: {{ $event.open }} Start: {{ $event.start }}<br />
@@ -130,7 +130,7 @@
               {{- range $event := $.Site.Params.live.events -}}
               {{- $date := time $event.date -}}
                 {{- if $date.Before now -}}
-                <h4>{{- partial (printf "live.%s.html" $.Site.Language.Lang) $date -}}</h4>
+                <h4>{{- partial (printf "date.%s.html" $.Site.Language.Lang) $date -}}</h4>
                 <p>
                   {{- $event.title | safeHTML -}}<br />
                   <a href="{{ $event.venue_access  }}" target="_blank">{{ $event.venue_name }}</a>

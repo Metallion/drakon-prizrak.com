@@ -114,15 +114,8 @@
               {{- end -}}
 
               <h3>{{- $.Site.Params.live.past_lives | safeHTML -}}</h3>
-              {{- range $event := $.Site.Params.live.events -}}
-              {{- $date := time $event.date -}}
-                {{- if $date.Before now -}}
-                <h4>{{- partial (printf "date.%s.html" $.Site.Language.Lang) $date -}}</h4>
-                <p>
-                  {{- $event.title | safeHTML -}}<br />
-                  <a href="{{ $event.venue_access  }}" target="_blank">{{ $event.venue_name }}</a>
-                </p>
-                {{- end -}}
+              {{- range $event := $.Site.Data.gigs.past -}}
+                {{- partial "live.past.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live) -}}
               {{- end -}}
 
             </div>

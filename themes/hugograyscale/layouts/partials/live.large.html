@@ -2,7 +2,9 @@
 
 <h4>{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
 <p>
-  {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
+  {{- if ne "" (echoParam .event (printf "title_%s" .Lang)) -}}
+    {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
+  {{- end -}}
   Open: {{ .event.open }} Start: {{ .event.start }}<br />
   Drakon Prizrak Start: {{ .event.drakon_start }}<br />
   {{ .label.entrance }}: {{ .event.entrance }}{{ .label.yen }}<br />

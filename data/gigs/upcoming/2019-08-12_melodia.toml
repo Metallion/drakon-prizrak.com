@@ -1,12 +1,13 @@
 date = "2019-08-12"
 
-title_en = ""
-title_jp = ""
+title_en = "ROCK 'n' BABE"
+title_jp = "ROCK 'n' BABE"
 
-open = "TBA"
-start = "TBA"
-drakon_start = "TBA"
-entrance = "TBA"
+open = "17:30"
+start = "18:00"
+drakon_start = "20:50"
+advance = "2500"
+entrance = "3000"
 
 venue_name_en = "Music Bar Melodia"
 venue_name_jp = "ミュージック・バー・メローディア"

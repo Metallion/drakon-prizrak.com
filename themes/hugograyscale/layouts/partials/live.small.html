@@ -8,6 +8,9 @@
   <strong><a href="{{ .event.venue_access }}" target="_blank">{{ echoParam .event (printf "venue_name_%s" .Lang) }}</a></strong><br />
   Open: {{ .event.open }} Start: {{ .event.start }}<br />
   Drakon Prizrak Start: {{ .event.drakon_start }}<br />
-  {{ .label.entrance }}: {{ .event.entrance }}{{ .label.yen }}<br />
+  {{- if isset .event "advance" -}}
+      Adv: {{ .event.advance }}{{ .label.yen }}
+  {{ end -}}
+  Door: {{ .event.entrance }}{{ .label.yen }}<br />
 </p>
 <br />

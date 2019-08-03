@@ -2,7 +2,7 @@
 
 <h4 class="live_header">{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
 <p>
-  {{- if ne "" (echoParam .event (printf "title_%s" .Lang)) | safeHTML -}}
+  {{- if isset .event (printf "title_%s" .Lang) -}}
     {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
   {{- end -}}
   <strong><a href="{{ .event.venue_access }}" target="_blank">{{ echoParam .event (printf "venue_name_%s" .Lang) }}</a></strong><br />

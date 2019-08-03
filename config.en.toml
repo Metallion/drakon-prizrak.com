@@ -29,7 +29,7 @@ target = "/"
   target= "#contact"
 
 [languages.en.about]
-  header = "About Drakon Prizrak"
+  header = "Drakon Prizrak"
   text = 'We are a multicultural gothic metal band with symphonic influences from Tokyo.<br />All of our members have different nationalities.'
 
 [languages.en.members]

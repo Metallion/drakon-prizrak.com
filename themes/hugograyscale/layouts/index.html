@@ -45,6 +45,9 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2><a class="header-link js-scroll-trigger" href="#about">{{- $.Site.Params.about.header | safeHTML -}}</a></h2>
+            {{- if isset $.Site.Params.about "katakana" -}}
+            <p id="katakana">{{- $.Site.Params.about.katakana -}}</p>
+            {{- end -}}
             <p>{{- $.Site.Params.about.text | safeHTML -}}</p>
             <iframe src="https://www.youtube.com/embed/p_0QB5464N4" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

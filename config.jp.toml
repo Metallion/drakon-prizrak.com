@@ -30,6 +30,7 @@ target = "/en"
 
 [languages.jp.about]
     header = "Drakon Prizrak"
+    katakana = "ドラコン・プリズラック"
     text = '国際的ゴシック・シンフォニック系メタルバンド。<br />メンバーは全て国籍が違います。'
 
 [languages.jp.members]

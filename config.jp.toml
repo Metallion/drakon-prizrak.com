@@ -94,6 +94,7 @@ past_lives = "過去のライブ"
 entrance = "入場"
 access = "アクセス"
 yen = "円"
+pending = "未定"
 
 [languages.jp.contact]
   header = "お問い合わせ"

@@ -94,6 +94,7 @@ past_lives = "Past live events"
 entrance = "Entrance"
 access = "Access"
 yen = " yen"
+pending = "TBA"
 
 [languages.en.contact]
   header = "Contact us"

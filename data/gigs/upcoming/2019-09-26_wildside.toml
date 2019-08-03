@@ -1,13 +1,13 @@
 date = "2019-09-26"
 
-#title_en = ""
-#title_jp = ""
+title_en = "Team Heavy Metal presents<br />HEAVY METAL FEVER"
+title_jp = "Team Heavy Metal presents<br />HEAVY METAL FEVER"
 
 #open = "TBA"
 #start = "TBA"
 #drakon_start = "TBA"
-#advance = ""
-#entrance = "TBA"
+advance = "1800"
+entrance = "2300"
 
 venue_name_en = "Shinjuku Wild Side"
 venue_name_jp = "新宿Wild Side"

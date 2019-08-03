@@ -115,7 +115,7 @@
 
               {{- if gt $.Site.Params.visiblePastLives 0 -}}
                 <h3>{{- $.Site.Params.live.past_lives | safeHTML -}}</h3>
-                {{- range $event := $.Site.Data.gigs.past -}}
+                {{- range $event := $.Site.Data.gigs.past | sort | last $.Site.Params.visiblePastLives -}}
                   {{- partial "live.past.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live) -}}
                 {{- end -}}
               {{- end -}}

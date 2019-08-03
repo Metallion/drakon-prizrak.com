@@ -378,6 +378,10 @@ img::-moz-selection {
 }
 
 @media only screen and (max-width: 650px) {
+  .member-name {
+    font-size: 1.50rem;
+  }
+
   .member-info {
     display: none;
   }

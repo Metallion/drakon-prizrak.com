@@ -1,4 +1,5 @@
 date = "2019-07-06"
+venue = "waver"
 
 title_en = "Kotona Party Vol: 6<br />Kotona Summer Festival Tanabata Eve"
 title_jp = "Kotona遊戯会Vol6 Kotonaの夏祭り<br />七夕イブ！織姫と彦星が最もはしゃぐ日"
@@ -7,12 +8,3 @@ open = "11:00"
 start = "11:00"
 drakon_start = "18:00"
 entrance = "1500"
-
-venue_name_en = "Shimo-Kitazawa Waver"
-venue_name_jp = "下北沢Waver"
-
-venue_address_en = "Tokyo-to Setagaya-ku Kitazawa 2-14-13 B1F"
-venue_address_jp = "東京都世田谷区北沢2-14-13-B1F"
-
-venue_access = "http://waverwaver.net/access/"
-google_map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1362.9408142184493!2d139.66624681586987!3d35.66129378509946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee0fc1cbb5ef%3A0xb97bfa62349bbb69!2sWAVER!5e0!3m2!1sen!2sjp!4v1557485744207!5m2!1sen!2sjp" allowfullscreen></iframe>'

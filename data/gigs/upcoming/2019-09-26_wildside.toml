@@ -1,4 +1,5 @@
 date = "2019-09-26"
+venue= "wildside"
 
 title_en = "Team Heavy Metal presents<br />HEAVY METAL FEVER"
 title_jp = "Team Heavy Metal presents<br />HEAVY METAL FEVER"
@@ -8,12 +9,3 @@ title_jp = "Team Heavy Metal presents<br />HEAVY METAL FEVER"
 #drakon_start = "TBA"
 advance = "1800"
 entrance = "2300"
-
-venue_name_en = "Shinjuku Wild Side"
-venue_name_jp = "新宿Wild Side"
-
-venue_address_en = "Kaizuka-building B1-1-34-13 Shinjuku Shinjuku-ku Tokyo Japan"
-venue_address_jp = "東京都新宿区新宿1-34-13 貝塚ビルB1"
-
-venue_access = "http://ws-tokyo.com/#footer"
-google_map = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12961.678512334149!2d139.710873!3d35.69129!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cc2b29016c3%3A0x38ba480102fc2392!2s1-ch%C5%8Dme-34-13+Shinjuku%2C+Shinjuku+City%2C+T%C5%8Dky%C5%8D-to+160-0022!5e0!3m2!1sen!2sjp!4v1564368540936!5m2!1sen!2sjp"></iframe>'

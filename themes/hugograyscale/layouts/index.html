@@ -113,10 +113,12 @@
               <h2><a class="header-link js-scroll-trigger" href="#live">{{- $.Site.Params.live.header | safeHTML -}}</a></h2>
 
               {{- range $key, $event := $.Site.Data.gigs.upcoming -}}
+                {{- $venue := $.Site.Data.venues.melodia -}}
+
                 {{- if $event.large -}}
-                  {{- partial "live.large.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live) -}}
+                  {{- partial "live.large.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live "venue" $venue) -}}
                 {{- else -}}
-                  {{- partial "live.small.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live) -}}
+                  {{- partial "live.small.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live "venue" $venue) -}}
                 {{- end -}}
               {{- end -}}
 

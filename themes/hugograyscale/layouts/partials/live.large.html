@@ -1,13 +1,13 @@
 {{- $date := time .event.date -}}
 
 <h4 class="live_venue_large">{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
-<p class="live_venue_large"><a href="{{ .event.venue_access }}" target="_blank">{{ echoParam .event (printf "venue_name_%s" .Lang) | safeHTML }}</a></p>
+<p class="live_venue_large"><a href="{{ .event.venue_access }}" target="_blank">{{ echoParam .venue (printf "name_%s" .Lang) | safeHTML }}</a></p>
 <p>
   {{- if isset .event (printf "title_%s" .Lang) -}}
     {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
   {{- end -}}
 
-  Open: {{ cond (isset .event "open") .event.open .label.pending  }} Start: {{ cond (isset .event "start") .event.start .label.pending }}<br />
+  Open: {{ cond (isset .event "open") .event.open .label.pending  }} start: {{ cond (isset .event "start") .event.start .label.pending }}<br />
   Drakon Prizrak Start: {{ cond (isset .event "drakon_start") .event.drakon_start .label.pending }}<br />
   {{- if isset .event "advance" -}}
       Adv: {{ .event.advance }}{{ .label.yen }}
@@ -18,5 +18,5 @@
     Door: {{ .label.pending }}<br />
   {{ end -}}
 </p>
-<p>{{ echoParam .event (printf "venue_address_%s" .Lang) }}</p>
-<p>{{ htmlUnescape .event.google_map | safeHTML }}</p>
+<p>{{ echoParam .venue (printf "address_%s" .Lang) }}</p>
+<p>{{ htmlUnescape .venue.google_map | safeHTML }}</p>

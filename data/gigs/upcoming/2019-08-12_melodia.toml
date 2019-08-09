@@ -12,7 +12,7 @@ advance = "2500"
 entrance = "3000"
 
 venue_name_en = "Music Bar Melodia"
-venue_name_jp = "ミュージック・バー・メローディア"
+venue_name_jp = "ミュージック・バー<br />メローディア"
 
 venue_address_en = "Tokyo-to Nakano-ku Yayoi-cho 1-9-3"
 venue_address_jp = "東京都中野区弥生町1-9-3ロックフォード第２ビル長者橋B1F"

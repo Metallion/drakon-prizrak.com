@@ -5,7 +5,7 @@
   {{- if isset .event (printf "title_%s" .Lang) -}}
     {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
   {{- end -}}
-  <strong><a href="{{ .event.venue_access }}" target="_blank">{{ echoParam .event (printf "venue_name_%s" .Lang) }}</a></strong><br />
+  <strong><a href="{{ .event.venue_access }}" target="_blank">{{ echoParam .event (printf "venue_name_%s" .Lang) | safeHTML }}</a></strong><br />
   Open: {{ cond (isset .event "open") .event.open .label.pending  }} Start: {{ cond (isset .event "start") .event.start .label.pending }}<br />
   Drakon Prizrak Start: {{ cond (isset .event "drakon_start") .event.drakon_start .label.pending }}<br />
   {{- if isset .event "advance" -}}

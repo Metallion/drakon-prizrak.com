@@ -1,7 +1,7 @@
 name_en = "Shinjuku Gyoen Sound"
 name_jp = "新宿御苑サウンド"
 
-address_en = "〒160-0022 Tokyo-to Shinjuku-ku Shinjuku 2-3-12 B1F"
+address_en = "Tokyo-to Shinjuku-ku Shinjuku 2-3-12 B1F"
 address_jp = "東京都新宿区新宿２丁目3-12 光和ビル B1F"
 
 access = "http://gyoen-sound.com/access.html"

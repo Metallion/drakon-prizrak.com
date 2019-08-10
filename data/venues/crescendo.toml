@@ -1,0 +1,8 @@
+name_en = "Kochijoji Crescendo"
+name_jp = "吉祥寺 Crescendo"
+
+address_en = "Tokyo-to Musashino Kichijouji Higashi-cho 1-25-24 Saparesu Higashi-cho 1F&B1"
+address_jp = "東京都武蔵野市吉祥寺東町1-25-24サンパレス東町1F＆B1"
+
+access = "http://www.kichijoji-crescendo.net/access2013.html"
+google_map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.876989317179!2d139.58324541525948!3d35.70464458018883!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018ee3f666a3d5d%3A0xb4720f1a1c23fa7e!2zMS1jaMWNbWUtMjUtMjQgS2ljaGlqxY1qaSBIaWdhc2hpY2jFjSwgTXVzYXNoaW5vLCBUxY1recWNLXRvIDE4MC0wMDAy!5e0!3m2!1sen!2sjp!4v1565426207737!5m2!1sen!2sjp"></iframe>'

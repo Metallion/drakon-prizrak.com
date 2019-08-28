@@ -1,11 +1,11 @@
 date = "2019-09-18"
 venue = "babel"
 
-#title_en = ""
-#title_jp = ""
+title_en = "SET OUT Vol. 199"
+title_jp = "SET OUT Vol. 199"
 
-#open = "TBA"
-#start = "TBA"
-#drakon_start = "TBA"
-#advance = ""
-#entrance = "TBA"
+open = "18:00"
+start = "18:30"
+drakon_start = "20:55"
+advance = "2000"
+entrance = "2500"

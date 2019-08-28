@@ -1,0 +1,13 @@
+date = "2019-09-05"
+venue = "crescendo"
+
+title_en = "DOWNBST vol.101"
+title_jp = "DOWNBST vol.101"
+
+open = "18:30"
+start = "19:00"
+drakon_start = "21:00"
+advance = 2500
+entrance = 3000
+
+large = true

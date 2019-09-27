@@ -9,5 +9,3 @@ start = "18:30"
 drakon_start = "21:30"
 advance = "1800"
 entrance = "2300"
-
-large = true

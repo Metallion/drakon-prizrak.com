@@ -6,6 +6,6 @@ venue = "cyclone"
 
 open = "18:00"
 start = "18:30"
-#drakon_start = ""
+drakon_start = "20:30"
 advance = "2300"
 entrance = "2600"

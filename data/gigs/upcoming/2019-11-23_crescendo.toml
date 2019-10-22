@@ -4,8 +4,8 @@ venue = "crescendo"
 title_en = "HEAVY GROOVE Vol. 330"
 title_jp = "HEAVY GROOVE Vol. 330"
 
-#open = "17:00"
-#start = "17:30"
-#drakon_start = "18:15"
+open = "16:30"
+start = "17:00"
+drakon_start = "17:45"
 advance = 2500
 entrance = 3000

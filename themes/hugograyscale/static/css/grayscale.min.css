@@ -194,10 +194,10 @@ iframe {
   }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1000px) {
   .masthead {
-    background: url("../img/intro-bg-1080p.jpg") no-repeat top center scroll;
-    max-height: 400px;
+    background: url("../img/intro-bg-900.jpg") no-repeat top center scroll;
+    max-height: 900px;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
@@ -210,7 +210,7 @@ iframe {
 
   .dp-logo {
     width: 90%;
-    max-width: 550px;
+    max-width: 700px;
     margin-bottom: 60px;
   }
 }

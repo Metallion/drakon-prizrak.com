@@ -208,6 +208,11 @@ iframe {
     width: 90%;
     max-width: 700px;
   }
+
+  #downloads-contrast {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -228,6 +233,11 @@ iframe {
 
   .scroll-indicator {
     display: none;
+  }
+
+  #downloads-contrast {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -276,7 +286,7 @@ iframe {
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/downloads-bg.jpg") no-repeat top center scroll;
   background-color: black;
   -webkit-background-size: contain;
   -moz-background-size: contain;

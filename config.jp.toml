@@ -41,17 +41,17 @@ bands = "影響を受けたバンド"
 loves = "趣味"
 
 [[languages.jp.members.members]]
-  name = "ステリ"
-  picture = "Steri.jpg"
-  nationality = "ギリシャ"
-  flag = "Greece.svg"
-  instrument = "ボーカル / プログラミング"
-  bands = "エヴァネッセンス / ナイトウィッシュ /<br />イン・ディス・モーメント / コーン"
-  loves = "ソイラテ / ビーガンムサカ / 猫 / オカルト"
+  name = "サッカム"
+  picture = "Soikkam.png"
+  nationality = "アメリカ"
+  flag = "USA.svg"
+  instrument = "ボーカル"
+  bands = "MALICE MIZER / Versailles /<br />クリムゾン・グローリー  / ウィンターホーク"
+  loves = "カラオケ / マジック:ザ・ギャザリング / バスケ"
   [languages.jp.members.members.socialhandles]
-    twitter = "https://twitter.com/sterikogias"
-    instagram = "https://www.instagram.com/sterikogias/"
-    facebook = "https://www.facebook.com/sterikogias"
+    twitter = "https://twitter.com/SoikkamVoxx"
+    instagram = "https://www.instagram.com/Soikkam/"
+    facebook = "https://www.facebook.com/SoikkamOfficial"
 
 [[languages.jp.members.members]]
   name = "アリャ"

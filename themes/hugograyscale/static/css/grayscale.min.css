@@ -162,10 +162,10 @@ iframe {
   color: white;
   background: url("../img/intro-bg.jpg") no-repeat top center scroll;
   background-color: black;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 .dp-logo {
@@ -182,11 +182,36 @@ iframe {
   .masthead {
     background: url("../img/intro-bg-1080p.jpg") no-repeat top center scroll;
     max-height: 1280px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
   }
 
   .dp-logo {
     width: 90%;
-    max-width: 800px;
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .masthead {
+    background: url("../img/intro-bg-900.jpg") no-repeat top center scroll;
+    max-height: 1024px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+  }
+
+  .dp-logo {
+    width: 90%;
+    max-width: 700px;
+  }
+
+  #downloads-contrast {
+    margin-left: 50px;
+    margin-right: 50px;
   }
 }
 
@@ -195,14 +220,24 @@ iframe {
     margin-top: 20px;
     background: url("../img/intro-bg-900.jpg") no-repeat top center scroll;
     max-height: 600px;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
   }
 
   .dp-logo {
     width: 100%;
+    margin-bottom: 40px;
   }
 
   .scroll-indicator {
     display: none;
+  }
+
+  #downloads-contrast {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }
 
@@ -245,13 +280,13 @@ iframe {
 }
 
 .content-section {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .download-section {
   color: white;
-  background: url("../img/downloads-bg.jpg") no-repeat center center scroll;
+  background: url("../img/downloads-bg.jpg") no-repeat top center scroll;
   background-color: black;
   -webkit-background-size: contain;
   -moz-background-size: contain;

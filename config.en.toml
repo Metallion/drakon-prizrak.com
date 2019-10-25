@@ -40,17 +40,17 @@ bands = "Favourite bands"
 loves = "Loves"
 
 [[languages.en.members.members]]
-  name = "Steri"
-  picture = "Steri.jpg"
-  nationality = "Greece"
-  flag = "Greece.svg"
-  instrument = "Vocals / Programming"
-  bands = "Evanescence / Nightwish / In This Moment / Korn"
-  loves = "Soy Latte / Vegan Moussaka / Cats / The Occult"
+  name = "Soikkam"
+  picture = "Soikkam.png"
+  nationality = "USA"
+  flag = "USA.svg"
+  instrument = "Vocals"
+  bands = "Malice Mizer / Versailles / Crimson Glory / Winterhawk"
+  loves = "Karaoke / Magic the Gathering / Basketball / Animals"
   [languages.en.members.members.socialhandles]
-    twitter = "https://twitter.com/sterikogias"
-    instagram = "https://www.instagram.com/sterikogias/"
-    facebook = "https://www.facebook.com/sterikogias"
+    twitter = "https://twitter.com/SoikkamVoxx"
+    instagram = "https://www.instagram.com/Soikkam/"
+    facebook = "https://www.facebook.com/SoikkamOfficial"
 
 [[languages.en.members.members]]
   name = "Alya"

@@ -4,8 +4,8 @@ venue = "crescendo"
 title_en = "DOWNBST vol.102"
 title_jp = "DOWNBST vol.102"
 
-# open = "16:30"
-# start = "17:00"
-# drakon_start = "17:45"
+open = "18:00"
+start = "18:30"
+drakon_start = "20:30"
 advance = 2500
 entrance = 3000

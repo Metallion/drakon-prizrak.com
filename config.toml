@@ -1,7 +1,6 @@
 baseURL = "https://drakon-prizrak.com/"
 languageCode = "en-us"
 title = "Drakon Prizrak"
-theme = "hugograyscale"
 copyright = "Drakon Prizrak"
 DefaultContentLanguage = "jp"
 

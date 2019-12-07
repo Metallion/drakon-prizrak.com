@@ -159,6 +159,7 @@ iframe {
 
 .masthead {
   display: flex;
+  position: relative;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
@@ -190,10 +191,10 @@ iframe {
   .masthead {
    *background: url("../img/intro-bg-1080p.jpg") no-repeat top center scroll;
     max-height: 1280px;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .dp-logo {
@@ -208,10 +209,10 @@ iframe {
     background: url("../img/slideshow/7.jpg") no-repeat top center scroll;
     z-index: 1;
     max-height: 1024px;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .dp-logo {
@@ -236,10 +237,10 @@ iframe {
     /*background: url("../img/intro-bg-900.jpg") no-repeat top center scroll;*/
     background: url("../img/slideshow/7.jpg") no-repeat top center scroll;
     max-height: 600px;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
-    background-size: contain;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .dp-logo {

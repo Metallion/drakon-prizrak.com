@@ -21,7 +21,7 @@
     background-attachment: scroll;
     opacity: 0;
     z-index: 0;
-    animation: imageAnimation 36s linear infinite 0s; 
+    animation: imageAnimation 42s linear infinite 0s; 
 }
 
 .masthead div.slide:nth-child(1) { 
@@ -48,6 +48,11 @@
     animation-delay: 30s; 
 }
 
+.masthead div.slide:nth-child(7) { 
+    background-image: url("../img/slideshow/7.jpg");
+    animation-delay: 36s; 
+}
+
 .masthead div.slide:nth-child(2) div { 
     animation-delay: 6s; 
 }
@@ -62,6 +67,10 @@
 }
 .masthead div.slide:nth-child(6) div { 
     animation-delay: 30s; 
+}
+
+.masthead div.slide:nth-child(7) div { 
+    animation-delay: 36s; 
 }
 
 @keyframes imageAnimation { 

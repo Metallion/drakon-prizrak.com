@@ -189,7 +189,7 @@ iframe {
 
 @media (max-width: 1920px) {
   .masthead {
-   *background: url("../img/intro-bg-1080p.jpg") no-repeat top center scroll;
+   background: url("../img/intro-bg-1080p.jpg") no-repeat top center scroll;
     max-height: 1280px;
     -webkit-background-size: contain;
     -moz-background-size: contain;

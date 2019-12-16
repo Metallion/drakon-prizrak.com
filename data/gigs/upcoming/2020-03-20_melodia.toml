@@ -9,3 +9,5 @@ venue = "melodia"
 #drakon_start = "20:50"
 #advance = "2500"
 #entrance = "3000"
+
+large = true

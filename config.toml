@@ -7,7 +7,7 @@ DefaultContentLanguage = "jp"
 canonifyurls = true
 paginate = 3
 [params]
-visiblePastLives = 3
+visiblePastLives = 4
 
 [params.socialhandles]
     instagram = "https://instagram.com/drakonprizrakofficial"

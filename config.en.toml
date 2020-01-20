@@ -30,7 +30,7 @@ target = "/"
 
 [languages.en.about]
   header = "Drakon Prizrak"
-  text = 'A multicultural gothic symphonic metal band from Tokyo.<br />All of our members have different nationalities.'
+  text = 'A multicultural metal band from Tokyo.<br />All of our members have different nationalities.'
 
 [languages.en.members]
 header = "Members"

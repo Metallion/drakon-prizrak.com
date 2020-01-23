@@ -31,7 +31,7 @@ target = "/en"
 [languages.jp.about]
     header = "Drakon Prizrak"
     katakana = "ドラコン・プリズラック"
-    text = '多国籍メタルバンド。メンバーは全て国籍が違います。'
+    text = '多国籍メタルバンド。<br />ロシア、ベルギー、アメリカ・テキサス州、九州から、東京に集結！'
 
 [languages.jp.members]
 header = "メンバー"
@@ -99,4 +99,4 @@ pending = "未定"
 
 [languages.jp.contact]
   header = "お問い合わせ"
-  text = "常に出演ライブを熱望しています。<br />SNSやEメールで、すぐ連絡下さい。"
+  text = "ライブのご依頼はSNS、メール等でいつでも受け付けております"

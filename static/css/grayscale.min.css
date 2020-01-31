@@ -178,9 +178,7 @@ iframe {
 }
 
 .dp-logo {
-  /*background: url("../img/DrakonPrizrak_White.svg") no-repeat top center scroll;*/
-  width: 80%;
-  max-width: 1600px;
+  width: 50%;
 }
 
 #logo {

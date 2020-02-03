@@ -1,0 +1,13 @@
+date = "2020-03-22"
+venue = "era"
+
+title_en = "Emergenza Battle of the Bands"
+title_jp = "エマージェンザ バンド大会"
+
+open = "18:00"
+start = "18:30"
+drakon_start = "18:30"
+#advance = "2000"
+entrance = "2000"
+
+#large = true

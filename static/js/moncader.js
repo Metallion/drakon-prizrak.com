@@ -5,21 +5,21 @@ document.addEventListener('DOMContentLoaded', () => {
   let konami_index = 0;
 
   function code_checker(event) {
-    if (event.keyCode == konami_sequence[konami_index]) {
+    if (event.keyCode === konami_sequence[konami_index]) {
       konami_index++;
-      console.log("yay")
-      if (konami_index == konami_sequence.length) {
-        document.removeEventListener("keydown", code_checker);
+      if (konami_index === konami_sequence.length) {
+        unlock_moncader();
+        document.removeEventListener("keydown", code_checker, false);
       }
     }
     else {
       konami_index = 0;
-      console.log("boo")
     }
   }
 
   function unlock_moncader() {
-    console.log("a winner is you")
+    //TODO: Support Japanese version too
+    document.getElementById("Moncader").style.display = "flex";
   }
 
   document.addEventListener("keydown", code_checker);

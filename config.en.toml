@@ -88,6 +88,18 @@ loves = "Loves"
   [languages.en.members.members.socialhandles]
     instagram = "https://www.instagram.com/jp_drakon"
 
+[[languages.en.members.members]]
+  name = "Moncader"
+  picture = "Moncader.jpg"
+  nationality = "Canada"
+  flag = "Canada.svg"
+  instrument = "Camera"
+  bands = "S3RL / Linkin Park / Lindsey Stirling"
+  loves = "Gaming / Wikipedia / Walking / Outdoors"
+  [languages.en.members.members.socialhandles]
+    instagram = "https://www.instagram.com/moncader"
+    twitter = "twitter.com/moncader"
+
 [languages.en.live]
 header = "Live events"
 past_lives = "Past live events"

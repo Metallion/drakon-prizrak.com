@@ -25,6 +25,10 @@ target = "/en"
   target= "#live"
 
 [[languages.jp.menus]]
+  text = "グッズ"
+  target= "#merch"
+
+[[languages.jp.menus]]
   text = "お問い合わせ"
   target= "#contact"
 

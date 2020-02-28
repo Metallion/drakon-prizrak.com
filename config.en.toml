@@ -25,6 +25,10 @@ target = "/"
   target= "#live"
 
 [[languages.en.menus]]
+  text = "Merch"
+  target= "#merch"
+
+[[languages.en.menus]]
   text = "contact"
   target= "#contact"
 

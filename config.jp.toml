@@ -25,6 +25,10 @@ target = "/en"
   target= "#live"
 
 [[languages.jp.menus]]
+  text = "グッズ"
+  target= "#merch"
+
+[[languages.jp.menus]]
   text = "お問い合わせ"
   target= "#contact"
 
@@ -113,6 +117,12 @@ entrance = "入場"
 access = "アクセス"
 yen = "円"
 pending = "未定"
+
+[languages.jp.merch]
+header = "グッズ"
+text = "オリジナル Drakon Prizrak Tシャツ。"
+price = "2000円"
+subtext = "ライブ会場物販にて販売中。<br />メールやSNSにて直接ご注文も承ります。"
 
 [languages.jp.contact]
   header = "お問い合わせ"

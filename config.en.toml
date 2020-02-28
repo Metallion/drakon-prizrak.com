@@ -25,6 +25,10 @@ target = "/"
   target= "#live"
 
 [[languages.en.menus]]
+  text = "Merch"
+  target= "#merch"
+
+[[languages.en.menus]]
   text = "contact"
   target= "#contact"
 
@@ -112,6 +116,12 @@ entrance = "Entrance"
 access = "Access"
 yen = " yen"
 pending = "TBA"
+
+[languages.en.merch]
+header = "Merchandise"
+text = "Official Drakon Prizrak T-shirt."
+price = "¥2000"
+subtext = "On sale at all live events or by contacting us."
 
 [languages.en.contact]
   header = "Contact us"

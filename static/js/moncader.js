@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function unlock_moncader() {
-    //TODO: Support Japanese version too
-    document.getElementById("Moncader").style.display = "flex";
+    document.getElementById("moncader-unlock-sound").play();
+    document.getElementById("member-moncader").style.display = "flex";
   }
 
   document.addEventListener("keydown", code_checker);

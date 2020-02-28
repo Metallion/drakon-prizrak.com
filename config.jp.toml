@@ -41,6 +41,7 @@ bands = "影響を受けたバンド"
 loves = "趣味"
 
 [[languages.jp.members.members]]
+  id = "soikkam"
   name = "スァッカム"
   picture = "Soikkam.png"
   nationality = "アメリカ"
@@ -54,6 +55,7 @@ loves = "趣味"
     facebook = "https://www.facebook.com/SoikkamOfficial"
 
 [[languages.jp.members.members]]
+  id = "alya"
   name = "アリャ"
   picture = "Alya.jpg"
   nationality = "ロシア"
@@ -67,6 +69,7 @@ loves = "趣味"
     facebook = "https://www.facebook.com/profile.php?id=100000228759105"
 
 [[languages.jp.members.members]]
+  id = "andreas"
   name = "アンドレアス"
   picture = "Andreas.jpg"
   nationality = "ベルギー"
@@ -79,6 +82,7 @@ loves = "趣味"
     "dorian Guitars" = "https://www.facebook.com/Sophidox/"
 
 [[languages.jp.members.members]]
+  id = "jumpei"
   name = "ジュンペイ"
   picture = "Jumpei.jpg"
   nationality = "日本"
@@ -88,6 +92,19 @@ loves = "趣味"
   loves = "食べ歩き"
   [languages.jp.members.members.socialhandles]
     instagram = "https://www.instagram.com/jp_drakon"
+
+[[languages.jp.members.members]]
+  id = "moncader"
+  name = "モンカダー"
+  picture = "Moncader.jpg"
+  nationality = "カナダ"
+  flag = "Canada.svg"
+  instrument = "撮影カメラ"
+  bands = "S3RL / リンキン・パーク / リンジー・スターリング"
+  loves = "ゲーム / ウィキペディア / 散歩 / アウトドア"
+  [languages.jp.members.members.socialhandles]
+    instagram = "https://www.instagram.com/moncader"
+    twitter = "twitter.com/moncader"
 
 [languages.jp.live]
 header = "ライブ"

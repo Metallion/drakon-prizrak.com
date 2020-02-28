@@ -143,7 +143,7 @@
           <p>
             {{- $.Site.Params.merch.text -}}<br />
             {{- $.Site.Params.merch.price -}}<br />
-            {{- $.Site.Params.merch.subtext -}}
+            {{- $.Site.Params.merch.subtext | safeHTML -}}
           </p>
           <img id= "merch-img" src="{{- "img/merch.jpg" | relURL -}}" alt="Official T-shirts" />
         </div>

@@ -113,6 +113,12 @@ access = "Access"
 yen = " yen"
 pending = "TBA"
 
+[languages.en.merch]
+header = "Merchandise"
+text = "Official Drakon Prizrak T-shirt"
+price = "¥2000"
+subtext = "On sale at all live events or by contacting us."
+
 [languages.en.contact]
   header = "Contact us"
   text = "We are always looking for more gigs.<br />Contact us through our social media or e-mail."

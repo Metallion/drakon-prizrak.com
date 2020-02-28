@@ -136,6 +136,20 @@
       </div>
     </section>
 
+    <section id="merch" class="content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>{{- $.Site.Params.merch.header -}}</h2>
+          <p>
+            {{- $.Site.Params.merch.text -}}<br />
+            {{- $.Site.Params.merch.price -}}<br />
+            {{- $.Site.Params.merch.subtext -}}
+          </p>
+          <img id= "merch-img" src="{{- "img/merch.jpg" | relURL -}}" alt="Official T-shirts" />
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact" class="content-section text-center">
       <div class="container">

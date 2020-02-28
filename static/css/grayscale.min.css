@@ -497,3 +497,7 @@ img::-moz-selection {
 #member-moncader {
   display: none;
 }
+
+#merch img {
+  width: 100%;
+}

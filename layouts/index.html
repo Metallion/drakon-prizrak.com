@@ -64,7 +64,7 @@
       <div class="member-list">
 
       {{- range $member := $.Site.Params.members.members -}}
-        <div id="{{- $member.name -}}" class="member-item">
+        <div id="member-{{- $member.id -}}" class="member-item">
           <div class="member-text">
             <h3 class="member-name">{{- $member.name -}}</h3>
             <img class="member-flag" alt="{{- $member.nationality }} Flag" src={{- printf "img/flags/%s" $member.flag | absURL -}}>

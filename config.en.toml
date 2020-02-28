@@ -40,6 +40,7 @@ bands = "Favourite bands"
 loves = "Loves"
 
 [[languages.en.members.members]]
+  id = "soikkam"
   name = "Soikkam"
   picture = "Soikkam.png"
   nationality = "USA"
@@ -53,6 +54,7 @@ loves = "Loves"
     facebook = "https://www.facebook.com/SoikkamOfficial"
 
 [[languages.en.members.members]]
+  id = "alya"
   name = "Alya"
   picture = "Alya.jpg"
   nationality = "Russia"
@@ -66,6 +68,7 @@ loves = "Loves"
     facebook = "https://www.facebook.com/profile.php?id=100000228759105"
 
 [[languages.en.members.members]]
+  id = "andreas"
   name = "Andreas"
   picture = "Andreas.jpg"
   nationality = "Belgium"
@@ -78,6 +81,7 @@ loves = "Loves"
     "dorian Guitars" = "https://www.facebook.com/Sophidox/"
 
 [[languages.en.members.members]]
+  id = "jumpei"
   name = "Jumpei"
   picture = "Jumpei.jpg"
   nationality = "Japan"
@@ -87,6 +91,19 @@ loves = "Loves"
   loves = "Trying various types of food"
   [languages.en.members.members.socialhandles]
     instagram = "https://www.instagram.com/jp_drakon"
+
+[[languages.en.members.members]]
+  id = "moncader"
+  name = "Moncader"
+  picture = "Moncader.jpg"
+  nationality = "Canada"
+  flag = "Canada.svg"
+  instrument = "DSLR Camera"
+  bands = "S3RL / Linkin Park / Lindsey Stirling"
+  loves = "Gaming / Wikipedia / Walking / Outdoors"
+  [languages.en.members.members.socialhandles]
+    instagram = "https://www.instagram.com/moncader"
+    twitter = "twitter.com/moncader"
 
 [languages.en.live]
 header = "Live events"

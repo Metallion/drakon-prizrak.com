@@ -501,3 +501,7 @@ img::-moz-selection {
 #merch img {
   width: 100%;
 }
+
+#navbar-container {
+  max-width: 1500px;
+}

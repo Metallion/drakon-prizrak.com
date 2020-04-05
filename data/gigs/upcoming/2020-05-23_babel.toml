@@ -1,11 +1,11 @@
 date = "2020-05-23"
 venue = "babel"
 
-#title_en = ""
-#title_jp = ""
+title_en = "Metal Partisan Fever Day 2"
+title_jp = "Metal Partisan Fever Day 2"
 
-#open = "18:30"
-#start = "19:00"
-#drakon_start = "20:45"
-#advance = "2000"
-#entrance = "2500"
+open = "16:00"
+start = "16:30"
+drakon_start = "17:15"
+advance = "2200"
+entrance = "2700"

@@ -1,20 +1,26 @@
 {{- $date := time .event.date -}}
 
 <h4 class="live_header">{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
-<p>
-  {{- if isset .event (printf "title_%s" .Lang) -}}
-    {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
-  {{- end -}}
-  <strong><a href="{{ .venue.access }}" target="_blank">{{ echoParam .venue (printf "name_%s" .Lang) | safeHTML }}</a></strong><br />
-  Open: {{ cond (isset .event "open") .event.open .label.pending  }} Start: {{ cond (isset .event "start") .event.start .label.pending }}<br />
-  Drakon Prizrak Start: {{ cond (isset .event "drakon_start") .event.drakon_start .label.pending }}<br />
-  {{- if isset .event "advance" -}}
-      Adv: {{ .event.advance }}{{ .label.yen }}
-  {{ end -}}
-  {{- if isset .event "entrance" -}}
-    Door: {{ .event.entrance }}{{ .label.yen }}<br />
-  {{- else -}}
-    Door: {{ .label.pending }}<br />
-  {{ end -}}
-</p>
+<div class='gig'>
+  <p>
+    {{- if isset .event (printf "title_%s" .Lang) -}}
+      {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
+    {{- end -}}
+    <strong><a href="{{ .venue.access }}" target="_blank">{{ echoParam .venue (printf "name_%s" .Lang) | safeHTML }}</a></strong><br />
+    Open: {{ cond (isset .event "open") .event.open .label.pending  }} Start: {{ cond (isset .event "start") .event.start .label.pending }}<br />
+    Drakon Prizrak Start: {{ cond (isset .event "drakon_start") .event.drakon_start .label.pending }}<br />
+    {{- if isset .event "advance" -}}
+        Adv: {{ .event.advance }}{{ .label.yen }}
+    {{ end -}}
+    {{- if isset .event "entrance" -}}
+      Door: {{ .event.entrance }}{{ .label.yen }}<br />
+    {{- else -}}
+      Door: {{ .label.pending }}<br />
+    {{ end -}}
+
+    {{- if .event.canceled -}}
+      <div class='stamp'>cancelled</div>
+    {{- end -}}
+  </p>
+</div>
 <br />

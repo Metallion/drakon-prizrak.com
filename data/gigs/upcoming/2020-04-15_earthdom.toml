@@ -9,3 +9,5 @@ start = "19:30"
 drakon_start = "19:30"
 advance = "2000"
 entrance = "2300"
+
+canceled = true

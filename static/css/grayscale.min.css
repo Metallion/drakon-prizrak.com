@@ -511,6 +511,7 @@ img::-moz-selection {
 }
 
 .stamp {
+  /* Code bsed on https://codepen.io/555/pen/pdwvBP*/
   position: absolute;
   top: 0;
   left: 0;

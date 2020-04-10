@@ -10,4 +10,4 @@ venue = "cyclone"
 #advance = "2000"
 #entrance = "2000"
 
-canceled = true
+cancelled = true

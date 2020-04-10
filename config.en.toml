@@ -116,6 +116,7 @@ entrance = "Entrance"
 access = "Access"
 yen = " yen"
 pending = "TBA"
+cancelled = "cancelled"
 
 [languages.en.merch]
 header = "Merchandise"

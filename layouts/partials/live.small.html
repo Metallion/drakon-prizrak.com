@@ -18,8 +18,8 @@
       Door: {{ .label.pending }}<br />
     {{ end -}}
 
-    {{- if .event.canceled -}}
-      <div class='stamp'>cancelled</div>
+    {{- if .event.cancelled -}}
+      <div class='stamp'>{{ .label.cancelled }}</div>
     {{- end -}}
   </p>
 </div>

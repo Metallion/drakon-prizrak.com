@@ -117,6 +117,7 @@ entrance = "入場"
 access = "アクセス"
 yen = "円"
 pending = "未定"
+cancelled = "延期"
 
 [languages.jp.merch]
 header = "グッズ"

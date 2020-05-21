@@ -8,6 +8,8 @@ venue = "wildside"
 #start = "18:30"
 #drakon_start = "18:30"
 #advance = "2000"
-entrance = "2000"
+#entrance = "2000"
 
 #large = true
+
+cancelled = true

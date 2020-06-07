@@ -9,3 +9,5 @@ venue = "cyclone"
 #drakon_start = "18:30"
 #advance = "2000"
 #entrance = "2000"
+
+cancelled = true

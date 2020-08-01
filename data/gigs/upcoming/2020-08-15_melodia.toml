@@ -1,11 +1,13 @@
 date = "2020-08-15"
 venue = "melodia"
 
-#title_en = ""
-#title_jp = ""
+title_en = "Rock 'n' Babe vol. 7"
+title_jp = "Rock 'n' Babe vol. 7"
 
-#open = "18:30"
-#start = "19:00"
-#drakon_start = "20:45"
+open = "18:30"
+start = "19:00"
+drakon_start = "20:30"
 #advance = "2000"
-#entrance = "2500"
+entrance = "2500"
+
+large = true

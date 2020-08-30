@@ -111,25 +111,7 @@
         <div class="col-lg-8 mx-auto">
             <div class="improve-contrast-box" id="downloads-contrast">
               <h2><a class="header-link js-scroll-trigger" href="#live">{{- $.Site.Params.live.header | safeHTML -}}</a></h2>
-
-              {{- range $key, $event := $.Site.Data.gigs.upcoming -}}
-                {{- $venue := (index $.Site.Data.venues $event.venue) -}}
-
-                {{- if $event.large -}}
-                  {{- partial "live.large.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live "venue" $venue) -}}
-                {{- else -}}
-                  {{- partial "live.small.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live "venue" $venue) -}}
-                {{- end -}}
-              {{- end -}}
-
-              {{- if gt $.Site.Params.visiblePastLives 0 -}}
-                <h3>{{- $.Site.Params.live.past_lives | safeHTML -}}</h3>
-                {{- range $event := sort $.Site.Data.gigs.past "date" "desc" | first $.Site.Params.visiblePastLives -}}
-                  {{- $venue := (index $.Site.Data.venues $event.venue) -}}
-
-                  {{- partial "live.past.html" (dict "event" $event "Lang" $.Site.Language.Lang "label" $.Site.Params.live "venue" $venue) -}}
-                {{- end -}}
-              {{- end -}}
+              {{- $.Site.Params.live.corona | safeHTML -}}
           </div>
         </div>
       </div>

@@ -317,10 +317,10 @@ iframe {
   color: white;
   background: url("../img/downloads-bg.jpg") no-repeat top center scroll;
   background-color: black;
-  -webkit-background-size: 60%;
-  -moz-background-size: 60%;
-  -o-background-size: 60%;
-  background-size: 60%;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;
 }
 
 #map {

@@ -201,13 +201,16 @@ iframe {
   }
 }
 
-@media (max-height: 660px) {
-  .scroll-indicator {
-    display: none;
-  }
-
+/*For laptops with 1366x768 screens*/
+@media (max-height: 768px) {
   .dp-logo {
     max-width: 550px;
+  }
+}
+
+@media (max-height: 700px) {
+  .scroll-indicator {
+    display: none;
   }
 }
 

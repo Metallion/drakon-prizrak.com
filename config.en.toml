@@ -25,6 +25,10 @@ target = "/"
   target= "#live"
 
 [[languages.en.menus]]
+  text = "Discography"
+  target= "#discography"
+
+[[languages.en.menus]]
   text = "Merch"
   target= "#merch"
 
@@ -118,6 +122,10 @@ yen = " yen"
 pending = "TBA"
 cancelled = "cancelled"
 corona = "<p>Due to the covid-19 virus, all live events have been postponed until further notice.</p><p>Instead we are focusing on recording our first EP titled &quot;Hell&apos;s Gates&quot;.<br>Please <a class='js-scroll-trigger' href='#contact'>follow us on social media</a> for any news regarding the EP or future live events.</p>"
+
+[languages.en.discography]
+header = "Discography"
+text = "<p>We are in the final stages of recording our first EP titled:<br><strong>Hell&apos;s Gates</strong></p><p>Please <a class='js-scroll-trigger' href='#contact'>follow us on social media</a> for any news.</p>"
 
 [languages.en.merch]
 header = "Merchandise"

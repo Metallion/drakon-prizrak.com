@@ -518,6 +518,22 @@ img::-moz-selection {
   width: 100%;
 }
 
+
+#discography {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#discography-container {
+}
+
+#recording-pics img {
+  width: 100%;
+}
+
+#recording-text {
+}
+
 #navbar-container {
   max-width: 1500px;
 }

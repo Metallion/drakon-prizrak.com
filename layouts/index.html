@@ -134,6 +134,20 @@
       </div>
     </section>
 
+    <!-- Discography section -->
+    <section id="discography" class="content-section text-center">
+      <h2><a class="header-link js-scroll-trigger" href="#dicography">{{- $.Site.Params.discography.header -}}</a></h2>
+      <div id="discography-container">
+        <div id="recording-text">
+          {{- $.Site.Params.discography.text | safeHTML -}}
+        </div>
+        <div id="recording-pics">
+          <img  src="{{- "img/recording/bass.jpeg" | relURL -}}" alt="Recording" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Merch section -->
     <section id="merch" class="content-section text-center">
       <div class="container">
         <div class="col-lg-8 mx-auto">
@@ -143,7 +157,7 @@
             {{- $.Site.Params.merch.price -}}<br />
             {{- $.Site.Params.merch.subtext | safeHTML -}}
           </p>
-          <img id= "merch-img" src="{{- "img/merch.jpg" | relURL -}}" alt="Official T-shirts" />
+          <img id="merch-img" src="{{- "img/merch.jpg" | relURL -}}" alt="Official T-shirts" />
         </div>
       </div>
     </section>

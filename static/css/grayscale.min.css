@@ -407,6 +407,8 @@ img::-moz-selection {
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: row;
+  max-width: 2000px;
+  margin: 0 auto;
 }
 
 .member-item {

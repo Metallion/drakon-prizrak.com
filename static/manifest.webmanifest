@@ -1,0 +1,20 @@
+{
+  "short_name": "Drakon Prizrak",
+  "name": "Drakon Prizrak",
+  "description": "Drakon Prizrak: A multicultural metal band from Japan.",
+  "icons": [
+    {
+      "src": "/img/icons/eye_192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/img/icons/eye_512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "display": "fullscreen",
+  "scope": "/"
+}

@@ -125,7 +125,7 @@ corona = "<p>Due to the covid-19 virus, all live events have been postponed unti
 
 [languages.en.discography]
 header = "Discography"
-text = "<p>We are in the final stages of recording our first EP titled:<br><strong>Hell&apos;s Gates</strong></p><p>Please <a class='js-scroll-trigger' href='#contact'>follow us on social media</a> for any news.</p>"
+text = "<p>We are in the final stages of recording our first EP titled:<br><strong>Hell&apos;s Gates</strong></p><p>Please follow us on <a class='js-scroll-trigger' href='#contact'>social media</a> for any news.</p>"
 
 [languages.en.merch]
 header = "Merchandise"

@@ -529,9 +529,11 @@ img::-moz-selection {
 
 #recording-pics img {
   width: 100%;
+  max-width: 600px;
 }
 
-#recording-text {
+#recording-text p {
+  margin: 0 -60px 25px;
 }
 
 #navbar-container {

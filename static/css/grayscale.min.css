@@ -201,6 +201,16 @@ iframe {
   }
 }
 
+@media (max-height: 660px) {
+  .scroll-indicator {
+    display: none;
+  }
+
+  .dp-logo {
+    max-width: 550px;
+  }
+}
+
 @media (max-width: 1000px) {
   .masthead {
     background: url("../img/intro-bg-900.jpg") no-repeat top center scroll;*/

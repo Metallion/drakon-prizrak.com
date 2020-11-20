@@ -11,3 +11,5 @@ advance = "3000"
 entrance = "3500"
 
 stream = "https://twitcasting.tv/catshole"
+
+large = true

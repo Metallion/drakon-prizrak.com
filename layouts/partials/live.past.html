@@ -1,6 +1,6 @@
 {{- $date := time .event.date -}}
 <h4 class="live-header">{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
 <p>
-  {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
+  {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br>
   <a href="{{ .venue.access  }}" target="_blank">{{ echoParam .venue (printf "name_%s" .Lang) }}</a>
 </p>

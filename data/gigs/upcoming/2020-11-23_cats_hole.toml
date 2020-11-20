@@ -9,3 +9,5 @@ start = "18:00"
 drakon_start = "19:45"
 advance = "3000"
 entrance = "3500"
+
+stream = "https://twitcasting.tv/catshole"

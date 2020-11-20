@@ -6,18 +6,31 @@
     {{- if isset .event (printf "title_%s" .Lang) -}}
       {{- echoParam .event (printf "title_%s" .Lang) | safeHTML -}}<br />
     {{- end -}}
-    <strong><a href="{{ .venue.access }}" target="_blank">{{ echoParam .venue (printf "name_%s" .Lang) | safeHTML }}</a></strong><br />
+
+    <strong>
+      <a href="{{ .venue.access }}" target="_blank">
+        {{ echoParam .venue (printf "name_%s" .Lang) | safeHTML }}
+      </a>
+    </strong>
+    <br>
+
+    {{- if isset .event "stream" -}}
+      <a href="{{ .event.stream }}" target="_blank">{{- .label.livestream -}}</a>
+      <br>
+    {{ end -}}
+
     Open: {{ cond (isset .event "open") .event.open .label.pending  }} Start: {{ cond (isset .event "start") .event.start .label.pending }}<br />
     Drakon Prizrak Start: {{ cond (isset .event "drakon_start") .event.drakon_start .label.pending }}<br />
+
     {{- if isset .event "advance" -}}
         Adv: {{ .event.advance }}{{ .label.yen }}
     {{ end -}}
-    {{- if isset .event "entrance" -}}
-      Door: {{ .event.entrance }}{{ .label.yen }}<br />
-    {{- else -}}
-      Door: {{ .label.pending }}<br />
-    {{ end -}}
 
+    {{- if isset .event "entrance" -}}
+      Door: {{ .event.entrance }}{{ .label.yen }}<br>
+    {{- else -}}
+      Door: {{ .label.pending }}<br>
+    {{ end -}}
     {{- if .event.cancelled -}}
       <div class='stamp'>{{ .label.cancelled }}</div>
     {{- end -}}

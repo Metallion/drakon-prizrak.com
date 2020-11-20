@@ -1,6 +1,6 @@
 {{- $date := time .event.date -}}
 
-<h4 class="live_header">{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
+<h4 class="live-header">{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
 <div class='gig'>
   <p>
     {{- if isset .event (printf "title_%s" .Lang) -}}

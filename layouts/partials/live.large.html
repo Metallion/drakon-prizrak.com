@@ -1,7 +1,7 @@
 {{- $date := time .event.date -}}
 
-<h4 class="live_venue_large">{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
-<p class="live_venue_large">
+<h4 class="live-venue-large">{{- partial (printf "date.%s.html" .Lang) $date -}}</h4>
+<p class="live-venue-large">
   <strong>
     <a href="{{ .venue.access }}" target="_blank">
       {{ echoParam .venue (printf "name_%s" .Lang) | safeHTML }}

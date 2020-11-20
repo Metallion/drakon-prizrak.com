@@ -19,8 +19,11 @@
       <br>
     {{ end -}}
 
-    Open: {{ cond (isset .event "open") .event.open .label.pending  }} Start: {{ cond (isset .event "start") .event.start .label.pending }}<br>
-    Drakon Prizrak Start: {{ cond (isset .event "drakon_start") .event.drakon_start .label.pending }}<br>
+    Open: {{ cond (isset .event "open") .event.open .label.pending  }}
+    Start: {{ cond (isset .event "start") .event.start .label.pending }}
+    <br>
+    Drakon Prizrak Start: {{ cond (isset .event "drakon_start") .event.drakon_start .label.pending }}
+    <br>
 
     {{- if isset .event "advance" -}}
         Adv: {{ .event.advance }}{{ .label.yen }}
@@ -31,6 +34,7 @@
     {{- else -}}
       Door: {{ .label.pending }}<br>
     {{ end -}}
+
     {{- if .event.cancelled -}}
       <div class='stamp'>{{ .label.cancelled }}</div>
     {{- end -}}

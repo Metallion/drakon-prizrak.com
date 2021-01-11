@@ -126,7 +126,7 @@ livestream = "Live Stream"
 
 [languages.en.discography]
 header = "Discography"
-text = "<p>We are in the final stages of recording our first EP titled:<br><strong>Hell&apos;s Gates</strong></p><p>Please follow us on <a class='js-scroll-trigger' href='#contact'>social media</a> for any news.</p>"
+text = "<p>Drakon Prizrak's long awaited first EP<br><strong>Hell&apos;s Gates</strong><br><a href=\"https://drakonprizrak.bandcamp.com\" target=\"_blank\">https://drakonprizrak.bandcamp.com</a><br>Digital download release: 2021.01.21 &#165;800<br>Physical CD release: 2021.01.30 &#165;1200<br>&#40;available for &#165;1000 at our live events&#41;</p>"
 
 [languages.en.merch]
 header = "Merchandise"

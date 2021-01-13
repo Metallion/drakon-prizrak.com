@@ -1,11 +1,13 @@
 date = "2021-01-30"
 venue = "babel"
 
-title_en = "Metal Partisan"
-title_jp = "Metal Partisan"
+title_en = "Metal Partisan<br>Livestream only gig. No live audience."
+title_jp = "Metal Partisan<br>無観客配信ライブ"
 
-open = "17:00"
-start = "17:30"
-drakon_start = "17:30"
-advance = "3000"
-entrance = "3500"
+stream = "https://twitcasting.tv/tachikawababel/shopcart/42576"
+
+open = "18:30"
+start = "18:30"
+drakon_start = "18:30"
+#advance = "3000"
+entrance = "3150"

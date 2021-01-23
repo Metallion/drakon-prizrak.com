@@ -40,11 +40,27 @@ p {
   margin: 0 0 25px;
 }
 
+#ep-embed {
+  border: 0;
+  width: 100%;
+  max-width: 600px;
+}
+
 @media (max-width: 375px) {
   p {
     font-size: 15px;
     line-height: 1.5;
     margin: 0 -10px 25px;
+  }
+
+  #ep-embed {
+    height: 525px;
+  }
+}
+
+@media (min-width: 414px) and (max-width: 767px) {
+  #ep-embed {
+    height: 550px;
   }
 }
 
@@ -58,6 +74,22 @@ p {
     font-size: 18px;
     line-height: 1.6;
     margin: 0 0 35px;
+  }
+
+  #ep-embed {
+    height: 735px;
+  }
+}
+
+@media (min-width: 800px) {
+  #ep-embed {
+    height: 755px;
+  }
+}
+
+@media (min-width: 801px) {
+  #ep-embed {
+    height: 871px;
   }
 }
 
@@ -73,7 +105,7 @@ a:focus, a:hover {
   color: #990033;
 }
 
-iframe {
+#youtube-embed {
   height: 450px;
   width: 85%;
   border: none;

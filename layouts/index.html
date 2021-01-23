@@ -50,7 +50,7 @@
             <p id="katakana">{{- $.Site.Params.about.katakana -}}</p>
             {{- end -}}
             <p>{{- $.Site.Params.about.text | safeHTML -}}</p>
-            <iframe id="youtube-embed" src="https://www.youtube.com/embed/qwgdPUIdz54?cc_load_policy=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/qwgdPUIdz54?cc_load_policy=1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
 
         </div>
@@ -142,11 +142,7 @@
           {{- $.Site.Params.discography.text | safeHTML -}}
         </div>
         <div id="recording-pics">
-          <iframe id="ep-embed" src="https://bandcamp.com/EmbeddedPlayer/album=2096987453/size=large/bgcol=ffffff/linkcol=cd0033/transparent=true/" seamless>
-            <a href="https://drakonprizrak.bandcamp.com/album/hells-gates">
-              Hell&#39;s Gates by Drakon Prizrak
-            </a>
-          </iframe>
+          <img  src="{{- "img/hells_gates.jpg" | relURL -}}" alt="Recording" />
         </div>
       </div>
     </section>

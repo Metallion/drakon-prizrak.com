@@ -42,8 +42,9 @@ p {
 
 #ep-embed {
   border: 0;
-  width: 100%;
   max-width: 600px;
+  width: 100%;
+  min-height: 525px;
 }
 
 @media (max-width: 375px) {
@@ -58,7 +59,7 @@ p {
   }
 }
 
-@media (min-width: 414px) and (max-width: 767px) {
+@media (min-width: 376px) {
   #ep-embed {
     height: 550px;
   }
@@ -87,7 +88,7 @@ p {
   }
 }
 
-@media (min-width: 801px) {
+@media (min-width: 1000px) {
   #ep-embed {
     height: 871px;
   }
@@ -248,7 +249,6 @@ a:focus, a:hover {
 @media (max-width: 1000px) {
   .masthead {
     background: url("../img/intro-bg-900.jpg") no-repeat top center scroll;*/
-    /*background: url("../img/slideshow/7.jpg") no-repeat top center scroll;*/
     z-index: 1;
     max-height: 1024px;
     -webkit-background-size: cover;
@@ -556,11 +556,6 @@ img::-moz-selection {
 }
 
 #discography-container {
-}
-
-#recording-pics img {
-  width: 100%;
-  max-width: 600px;
 }
 
 #recording-text p {

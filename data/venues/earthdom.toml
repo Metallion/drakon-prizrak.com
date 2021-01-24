@@ -5,4 +5,4 @@ address_en = "Tokyo-to Shinjuku-ku Ookubo 2-32-3"
 address_jp = "東京都新新宿区大久保2-32-3"
 
 access = "http://www1.odn.ne.jp/~cfs81480/index.html/dom.html"
-google_map = '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3239.991013153937!2d139.7022768809494!3d35.701838762574404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d260b777391%3A0xaeeb49bbf2ed669!2z44CSMTY5LTAwNzIg5p2x5Lqs6YO95paw5a6_5Yy65aSn5LmF5L-d77yS5LiB55uu77yT77yS4oiS77yT!5e0!3m2!1sja!2sjp!4v1581690554287!5m2!1sja!2sjp" allowfullscreen=""></iframe>'
+google_map = '<iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3239.991013153937!2d139.7022768809494!3d35.701838762574404!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188d260b777391%3A0xaeeb49bbf2ed669!2z44CSMTY5LTAwNzIg5p2x5Lqs6YO95paw5a6_5Yy65aSn5LmF5L-d77yS5LiB55uu77yT77yS4oiS77yT!5e0!3m2!1sja!2sjp!4v1581690554287!5m2!1sja!2sjp" allowfullscreen=""></iframe>'

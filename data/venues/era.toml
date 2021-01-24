@@ -5,4 +5,4 @@ address_en = "Tokyo-to Setagaya-ku Kitazawa 2-34-5 Primavert Shimo-Kitazawa 4F"
 address_jp = "東京都世田谷区北沢2-34-5 プリマヴェール下北沢4F "
 
 access = "http://s-era.jp/access/"
-google_map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.4664061476155!2d139.66713312016876!3d35.66337160552432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f36afcdbb0bb%3A0x700c015fae3dbb8d!2z44CSMTU1LTAwMzEgVMWNa3nFjS10bywgU2V0YWdheWEgQ2l0eSwgS2l0YXphd2EsIDItY2jFjW1l4oiSMzTiiJI1IOODl-ODquODnuODtOOCp-ODvOODq-S4i-WMl-ayoiA0Rg!5e0!3m2!1sen!2sjp!4v1580736883532!5m2!1sen!2sjp" allowfullscreen=""></iframe>'
+google_map = '<iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.4664061476155!2d139.66713312016876!3d35.66337160552432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f36afcdbb0bb%3A0x700c015fae3dbb8d!2z44CSMTU1LTAwMzEgVMWNa3nFjS10bywgU2V0YWdheWEgQ2l0eSwgS2l0YXphd2EsIDItY2jFjW1l4oiSMzTiiJI1IOODl-ODquODnuODtOOCp-ODvOODq-S4i-WMl-ayoiA0Rg!5e0!3m2!1sen!2sjp!4v1580736883532!5m2!1sen!2sjp" allowfullscreen=""></iframe>'

@@ -5,4 +5,4 @@ address_en = "Tokyo-to Nakano-ku Yayoi-cho 1-9-3"
 address_jp = "東京都中野区弥生町1-9-3ロックフォード第２ビル長者橋B1F"
 
 access = "https://www.melodia.tokyo/access"
-google_map = '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.2054858089627!2d139.6793534582272!3d35.69150307345881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f2d9dc8cff55%3A0xcead4ef5adaae092!2sMusic+Bar+MELODIA+Tokyo!5e0!3m2!1sen!2sus!4v1559388725397!5m2!1sen!2sus" allowfullscreen></iframe>'
+google_map = '<iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1620.2054858089627!2d139.6793534582272!3d35.69150307345881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f2d9dc8cff55%3A0xcead4ef5adaae092!2sMusic+Bar+MELODIA+Tokyo!5e0!3m2!1sen!2sus!4v1559388725397!5m2!1sen!2sus" allowfullscreen></iframe>'

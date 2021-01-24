@@ -15,7 +15,9 @@
     <br>
 
     {{- if isset .event "stream" -}}
-      <a href="{{ .event.stream }}" target="_blank">{{- .label.livestream -}}</a>
+      <a href="{{ .event.stream }}" target="_blank">
+        {{- .label.livestream -}}
+      </a>
       <br>
     {{ end -}}
 
@@ -26,13 +28,15 @@
     <br>
 
     {{- if isset .event "advance" -}}
-        Adv: {{ .event.advance }}{{ .label.yen }}
+      Adv: {{ .event.advance }}{{ .label.yen }}
     {{ end -}}
 
     {{- if isset .event "entrance" -}}
       Door: {{ .event.entrance }}{{ .label.yen }}<br>
-    {{- else -}}
-      Door: {{ .label.pending }}<br>
+    {{ end -}}
+
+    {{- if isset .event "stream_price" -}}
+      Stream: {{ .event.stream_price }}{{ .label.yen }}<br>
     {{ end -}}
 
     {{- if .event.cancelled -}}

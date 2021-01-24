@@ -28,8 +28,10 @@
 
   {{- if isset .event "entrance" -}}
     Door: {{ .event.entrance }}{{ .label.yen }}
-  {{- else -}}
-    Door: {{ .label.pending }}
+  {{ end -}}
+
+  {{- if isset .event "stream_price" -}}
+    Stream: {{ .event.stream_price }}{{ .label.yen }}<br>
   {{ end -}}
 </p>
 <p>{{ echoParam .venue (printf "address_%s" .Lang) }}</p>

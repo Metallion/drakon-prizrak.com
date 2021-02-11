@@ -127,7 +127,7 @@ livestream = "ライブ配信"
 
 [languages.jp.discography]
 header = "CD"
-text = "<p>ご要望の多かった初EP<br><strong>『Hell&apos;s Gates』</strong><br><a href=\"https://drakonprizrak.bandcamp.com\" target=\"_blank\">https://drakonprizrak.bandcamp.com</a><br>ダウンロード版 800円<br>2021.01.30 CD版 Release<br>CD版 1200円 &#40;ライブ会場購入1000円&#41;</p>"
+text = "<p>ご要望の多かった初EP<br><strong>『Hell&apos;s Gates』</strong><br><a href=\"https://drakonprizrak.bandcamp.com\" target=\"_blank\">https://drakonprizrak.bandcamp.com</a><br>ダウンロード版 800円<br>CD版 1200円 &#40;ライブ会場購入1000円&#41;</p>"
 
 [languages.jp.merch]
 header = "グッズ"

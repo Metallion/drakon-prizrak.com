@@ -1,13 +1,15 @@
 date = "2021-03-07"
 venue = "melodia"
 
-#title_en = "Rock 'n' Babe vol. 7"
-#title_jp = "Rock 'n' Babe vol. 7"
+title_en = "Rock 'n' Babe vol. 8"
+title_jp = "Rock 'n' Babe vol. 8"
 
-#open = "18:30"
-#start = "19:00"
+open = "18:30"
+start = "19:00"
 #drakon_start = "20:30"
 #advance = "2000"
-#entrance = "2500"
+entrance = "2500"
+
+stream = "https://twitcasting.tv/c:melodiatokyo/shopcart/54866"
 
 #large = true

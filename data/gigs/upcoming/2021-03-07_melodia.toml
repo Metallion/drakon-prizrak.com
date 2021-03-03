@@ -4,12 +4,12 @@ venue = "melodia"
 title_en = "Rock 'n' Babe vol. 8"
 title_jp = "Rock 'n' Babe vol. 8"
 
-open = "18:30"
-start = "19:00"
-#drakon_start = "20:30"
+open = "17:00"
+start = "17:30"
+drakon_start = "18:55"
 #advance = "2000"
 entrance = "2500"
 
 stream = "https://twitcasting.tv/c:melodiatokyo/shopcart/54866"
 
-#large = true
+large = true

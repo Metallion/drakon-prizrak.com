@@ -1,6 +1,8 @@
 date = "2021-03-12"
 venue = "cats_hole"
 
+cancelled = true
+
 #title_en = ""
 #title_jp = ""
 #

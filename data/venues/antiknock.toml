@@ -1,0 +1,8 @@
+name_en = "Shinjuku Antiknock"
+name_jp = "新宿アンチノック"
+
+address_en = "Tokyo-to Shinjuku-ku Shinjuku 4-3-15 Rei Flat Bldn. B1F"
+address_jp = "東京都新宿区新宿4-3-15 レイフラットビルB1F"
+
+access = "https://www.antiknock.net"
+google_map = '<iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3853.6283099722355!2d139.7005132332136!3d35.689256711479985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6b56646621dba43d!2z5paw5a6_77yh77yu77y077yp77yr77yu77yv77yj77yr!5e0!3m2!1sja!2sjp!4v1616727873705!5m2!1sja!2sjp" allowfullscreen=""></iframe>'

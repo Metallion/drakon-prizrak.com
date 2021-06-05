@@ -1,13 +1,13 @@
 date = "2021-07-17"
 venue = "babel"
 
-#title_en = "The New Reign"
-#title_jp = "The New Reign"
+title_en = "Tachikawa Metal Fest"
+title_jp = "立川メタルフェス"
 
-#open = "15:10"
-#start = "15:30"
-#drakon_start = "16:10"
-#advance = "2500"
-#entrance = "3000"
+open = "15:00"
+start = "15:15"
+drakon_start = "16:00"
+advance = "3000"
+entrance = "3500"
 
 #stream = ""

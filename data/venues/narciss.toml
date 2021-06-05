@@ -1,0 +1,8 @@
+name_en = "Urawa Narciss"
+name_jp = "浦和ナルシス"
+
+address_en = "Saitama Urawa-ku Takasago 2-1-5 B1"
+address_jp = "埼玉県さいたま市浦和区高砂2-1-5 B1"
+
+access = "http://zmf.co.jp"
+google_map = '<iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6467.34053374428!2d139.655384!3d35.857088!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfdca49f2955b342c!2sNarcisse!5e0!3m2!1sen!2suk!4v1622859818277!5m2!1sen!2suk" allowfullscreen=""></iframe>'

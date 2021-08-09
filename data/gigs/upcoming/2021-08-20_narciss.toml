@@ -1,2 +1,13 @@
 date = "2021-08-20"
 venue = "narciss"
+
+title_en = "Sound Soul Show<br>deva:ed &amp; Calaveras coupling tour"
+title_jp = "Sound Soul Show<br>deva:ed &amp; Calaveras coupling tour"
+
+open = "16:00"
+start = "16:20"
+
+advance = "3500"
+entrance = "4000"
+
+large = true

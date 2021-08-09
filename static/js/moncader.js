@@ -1,26 +1,26 @@
 'use strict';
 
 document.addEventListener('DOMContentLoaded', () => {
-  const konami_sequence = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
-  let konami_index = 0;
+  const konamiSequence = [38, 38, 40, 40, 37, 39, 37, 39, 66, 65];
+  let konamiIndex = 0;
 
-  function code_checker(event) {
-    if (event.keyCode === konami_sequence[konami_index]) {
-      konami_index++;
-      if (konami_index === konami_sequence.length) {
-        unlock_moncader();
-        document.removeEventListener("keydown", code_checker, false);
+  function codeChecker(event) {
+    if (event.keyCode === konamiSequence[konamiIndex]) {
+      konamiIndex++;
+      if (konamiIndex === konamiSequence.length) {
+        unlockMoncader();
+        document.removeEventListener("keydown", codeChecker, false);
       }
     }
     else {
-      konami_index = 0;
+      konamiIndex = 0;
     }
   }
 
-  function unlock_moncader() {
+  function unlockMoncader() {
     document.getElementById("moncader-unlock-sound").play();
     document.getElementById("member-moncader").style.display = "flex";
   }
 
-  document.addEventListener("keydown", code_checker);
+  document.addEventListener("keydown", codeChecker);
 });

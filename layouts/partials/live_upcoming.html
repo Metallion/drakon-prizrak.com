@@ -1,0 +1,13 @@
+{{ $venues := .venues }}
+{{ $Lang := .Lang }}
+{{ $label := .label }}
+
+{{- range $key, $event := .gigs -}}
+  {{- $venue := (index $venues $event.venue) -}}
+
+  {{- if $event.large -}}
+    {{- partial "live.large.html" (dict "event" $event "Lang" $Lang "label" $label "venue" $venue) -}}
+  {{- else -}}
+    {{- partial "live.small.html" (dict "event" $event "Lang" $Lang "label" $label "venue" $venue) -}}
+  {{- end -}}
+{{- end -}}

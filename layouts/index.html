@@ -111,10 +111,14 @@
         <div class="col-lg-8 mx-auto">
           <div class="improve-contrast-box" id="downloads-contrast">
             <h2><a class="header-link js-scroll-trigger" href="#live">{{- $.Site.Params.live.header | safeHTML -}}</a></h2>
-            {{- partial "live_upcoming.html" (dict "gigs" $.Site.Data.gigs.upcoming
-                                                   "venues" $.Site.Data.venues
-                                                   "Lang" $.Site.Language.Lang
-                                                   "label" $.Site.Params.live) -}}
+            {{- if isset $.Site.Data.gigs "upcoming" -}}
+              {{- partial "live_upcoming.html" (dict "gigs" $.Site.Data.gigs.upcoming
+                                                     "venues" $.Site.Data.venues
+                                                     "Lang" $.Site.Language.Lang
+                                                     "label" $.Site.Params.live) -}}
+            {{- else -}}
+              <p>{{- $.Site.Params.live.no_gigs_planned | safeHTML -}}</p>
+            {{- end -}}
 
             {{- if gt $.Site.Params.visiblePastLives 0 -}}
               <h3>{{- $.Site.Params.live.past_lives | safeHTML -}}</h3>

@@ -121,7 +121,7 @@ access = "Access"
 yen = " yen"
 pending = "TBA"
 cancelled = "cancelled"
-no_gigs_planned = "We currently do not have any live events scheduled.<br>Please check back regularly for updates."
+no_gigs_planned = "No live events scheduled at this time.<br>Please check back regularly for updates."
 livestream = "Live Stream"
 
 [languages.en.discography]

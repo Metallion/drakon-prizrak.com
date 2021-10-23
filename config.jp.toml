@@ -122,7 +122,7 @@ access = "アクセス"
 yen = "円"
 pending = "未定"
 cancelled = "延期"
-corona = "<p>新型コロナウィルスの影響のため、<br>Drakon Prizrakは当面の間ライブを休止いたします。<br>申し訳ございません。</p><p>現在、ご要望の多かった初EP『Hell&apos;s Gates』のレコーディングを進めております。<br>リリースや今後の活動予定につきましては、<a class='js-scroll-trigger' href='#contact'>SNSにて発表します。</a><br>フォローよろしくお願い致します。</p>"
+no_gigs_planned = "現在ライブイベントの予定はありません。<br>近日再開予定です。"
 livestream = "ライブ配信"
 
 [languages.jp.discography]

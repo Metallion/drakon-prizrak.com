@@ -18,7 +18,7 @@
   {{- end -}}
 
   Open: {{ cond (isset .event "open") .event.open .label.pending  }}
-  start: {{ cond (isset .event "start") .event.start .label.pending }}
+  Start: {{ cond (isset .event "start") .event.start .label.pending }}
   <br>
   Drakon Prizrak Start: {{ cond (isset .event "drakon_start") .event.drakon_start .label.pending }}
   <br>

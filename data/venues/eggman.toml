@@ -1,0 +1,9 @@
+name_en = "Shibuya Eggman"
+name_jp = "渋谷 Eggman"
+
+address_en = "Tokyo-to Shibuya-ku Jinnnan 1-6-8 B1"
+address_jp = "東京都渋谷区神南1-6-8 B1"
+
+access = "http://eggman.jp"
+
+google_map = '<iframe id="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.511022052467!2d139.6970312152583!3d35.664417180198114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188caf3073a2b9%3A0x153a03ae080ff228!2sEggman!5e0!3m2!1sen!2sjp!4v1647406421647!5m2!1sen!2sjp" allowfullscreen=""></iframe>'

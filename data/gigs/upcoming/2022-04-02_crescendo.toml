@@ -7,5 +7,9 @@ title_jp = "Drakon Prizrak Presents<br>~ Hell Feast ~<br>スァッカム誕生�
 open = "16:30"
 start = "17:00"
 drakon_start = "20:00"
-#advance = 2600
-#entrance = 3100
+advance = 3000
+entrance = 3500
+
+stream = "https://twitcasting.tv/c:crescendo_live/shopcart/139219"
+
+large = true

@@ -14,6 +14,10 @@
     </strong>
     <br>
 
+    {{- if isset .event "tickets" -}}
+      <a href="{{ .event.tickets }}" target="_blank">{{- .label.tickets -}}</a> |
+    {{ end -}}
+
     {{- if isset .event "stream" -}}
       <a href="{{ .event.stream }}" target="_blank">
         {{- .label.livestream -}}

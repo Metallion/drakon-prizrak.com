@@ -7,6 +7,10 @@
       {{ echoParam .venue (printf "name_%s" .Lang) | safeHTML }}
     </a>
   </strong>
+  {{- if isset .event "tickets" -}}
+    <br>
+    <a href="{{ .event.tickets }}" target="_blank">{{- .label.tickets -}}</a>
+  {{ end -}}
   {{- if isset .event "stream" -}}
     <br>
     <a href="{{ .event.stream }}" target="_blank">{{- .label.livestream -}}</a>

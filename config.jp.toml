@@ -123,6 +123,7 @@ yen = "円"
 pending = "未定"
 cancelled = "延期"
 no_gigs_planned = "現在ライブイベントの予定はありません。<br>近日再開予定です。"
+tickets = "チケット"
 livestream = "ライブ配信"
 
 [languages.jp.discography]

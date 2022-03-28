@@ -10,6 +10,7 @@ drakon_start = "20:00"
 advance = 3000
 entrance = 3500
 
+tickets = "https://passmarket.yahoo.co.jp/event/show/detail/026g47w5up721.html"
 stream = "https://twitcasting.tv/c:crescendo_live/shopcart/139219"
 
 large = true

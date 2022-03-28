@@ -122,6 +122,7 @@ yen = " yen"
 pending = "TBA"
 cancelled = "cancelled"
 no_gigs_planned = "No live events scheduled at this time.<br>Please check back regularly for updates."
+tickets = "Tickets"
 livestream = "Live Stream"
 
 [languages.en.discography]

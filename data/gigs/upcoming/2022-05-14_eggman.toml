@@ -4,8 +4,13 @@ venue = "eggman"
 title_en = "Emergenza Japan 2022 semifinal"
 title_jp = "エマージェンザ・ジャパン 2022 準決勝"
 
-#open = "16:30"
-#start = "17:00"
-#drakon_start = "20:00"
-#advance = 2600
-#entrance = 3100
+open = "16:50"
+start = "17:20"
+drakon_start = "17:50"
+advance = 2500
+entrance = 3000
+
+tickets = "https://eplus.jp/sf/detail/3591240001"
+stream = "https://mudia.tv/event/2631"
+
+large = true

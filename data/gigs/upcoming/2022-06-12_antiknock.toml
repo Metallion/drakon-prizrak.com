@@ -1,11 +1,15 @@
 date = "2022-06-12"
 venue = "antiknock"
 
-#title_en = "Drakon Prizrak Presents<br>~ Hell Feast ~<br>Soikkam Birthday Party"
-#title_jp = "Drakon Prizrak Presents<br>~ Hell Feast ~<br>スァッカム誕生日ライブ"
+title_en = "Blood Prophecy & Antiknock present<br>Blood Fest: Blood Prophecy 3rd Anniversary"
+title_jp = "Blood Prophecy & Antiknock present<br>Blood Fest: Blood Prophecy 3rd Anniversary"
 
-#open = "16:30"
-#start = "17:00"
-#drakon_start = "20:00"
-#advance = 2600
-#entrance = 3100
+open = "15:30"
+start = "16:00"
+drakon_start = "18:00"
+advance = 2500
+entrance = 3000
+
+stream = "https://twitcasting.tv/antiknock1985/shopcart/149443"
+
+large = true

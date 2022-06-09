@@ -1,11 +1,13 @@
 date = "2022-07-02"
 venue = "babel"
 
-#title_en = "Drakon Prizrak Presents<br>~ Hell Feast ~<br>Soikkam Birthday Party"
-#title_jp = "Drakon Prizrak Presents<br>~ Hell Feast ~<br>スァッカム誕生日ライブ"
+title_en = "Tachikawa Metal Fest"
+title_jp = "立川メタルフェス"
 
 #open = "16:30"
 #start = "17:00"
 #drakon_start = "20:00"
-#advance = 2600
-#entrance = 3100
+advance = 2500
+entrance = 3000
+
+stream = "https://twitcasting.tv/tachikawababel/shopcart/160834"

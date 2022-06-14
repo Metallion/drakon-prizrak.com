@@ -11,3 +11,5 @@ advance = 2500
 entrance = 3000
 
 stream = "https://twitcasting.tv/tachikawababel/shopcart/160834"
+
+large = true

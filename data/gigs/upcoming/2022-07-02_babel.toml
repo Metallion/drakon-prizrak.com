@@ -4,9 +4,9 @@ venue = "babel"
 title_en = "Tachikawa Metal Fest"
 title_jp = "立川メタルフェス"
 
-#open = "16:30"
-#start = "17:00"
-#drakon_start = "20:00"
+open = "17:30"
+start = "17:45"
+drakon_start = "19:05"
 advance = 2500
 entrance = 3000
 
